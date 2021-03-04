@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language id="49">
+
+<page id="4816303" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
+<!-- 3323247 == deadair --><!--48163x69 == 3323247 since there is a character limit --><!--48163##-->
+ <t id="100">Galdente Federation</t>
+ <t id="101">The Federation is democratic and very liberal in a world full of dictators and oligarchies. The Daldari State was once part of the Federation, but a severe dispute resulted in their departure and a long war between the Galdente Federation and the Daldari State. The Galdenteans are the masters of pleasure and entertainment and their rich trade empire has given the world many of its most glorious and extravagant sights.</t>
+ <t id="102">DGA</t>
+ <t id="103">Galdente Capital Equipment Licence</t>
+ <t id="104">Galdente Capital Ship Licence</t>
+ <t id="105">Patrician of the Galdente</t>
+ <t id="106">Peregrini of the Galdente</t>
+ <t id="107">Galdente General Use Equipment Licence</t>
+ <t id="108">Galdente General Use Ship Licence</t>
+ <t id="109">Galdente Military Equipment Licence</t>
+ <t id="110">Galdente Military Ship Licence</t>
+ <t id="111">Galdente Police Licence</t>
+ <t id="112">Galdente Capital Ship Building Module Licence</t>
+ <t id="113">Galdente Ancillary Ship Building Module Licence</t>
+ <t id="114">Galdente Advanced Module Licence</t>
+ <t id="115">Galdente Basic Module Licence</t>
+ <t id="116">Galdente Intermediate Module Licence</t>
+ <t id="117">Galdente Trade Offer Subscription</t>
+ <t id="118">Federation</t>
+ <t id="119">Galdente Ship Sale Contract</t>
+ <t id="120">(75FA-Z){20404,7}{20404,5}{20403,6}{20403,1}{20005,8004}{20403,26}</t>
+ <t id="121">(WY-9LL){20403,23}{20403,25}{20005,8004}{20404,9}{20403,12}{20403,12}</t>
+ <t id="122">(MN5N-X){20403,13}{20403,14}{20404,5}{20403,14}{20005,8004}{20403,24}</t>
+ <t id="123">(YZ-LQL){20403,25}{20403,26}{20005,8004}{20403,12}{20403,17}{20403,12}</t>
+ <t id="124">(D-Q04X){20403,4}{20005,8004}{20403,17}{20404,1001}{20404,4}{20403,24}</t>
+ <t id="125">(A-1CON){20403,1}{20005,8004}{20404,1}{20403,3}{20403,15}{20403,14}</t>
+ <t id="126">(Z30S-A){20403,26}{20404,30}{20403,19}{20005,8004}{20403,1}</t>
+ <t id="127">xxx</t>
+ <t id="128">xxx</t>
+ <t id="129">xxx</t>
+ <t id="130">(I-CUVX){20403,9}{20005,8004}{20403,3}{20403,21}{20403,22}{20403,24}</t>
+ <t id="131">xxx</t>
+ <t id="132">xxx</t>
+</page>
+</language>
