@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<add sel="//index">
+	<entry name="Cluster_DGA1" value="extensions\egp_deadairfactiongaldente\assets\environments\cluster\cluster_dga1" />
+	<entry name="Cluster_DGA2" value="extensions\egp_deadairfactiongaldente\assets\environments\cluster\cluster_dga2" />
+	<entry name="Cluster_DGA3" value="extensions\egp_deadairfactiongaldente\assets\environments\cluster\cluster_dga3" />
+	<entry name="Cluster_DGA4" value="extensions\egp_deadairfactiongaldente\assets\environments\cluster\cluster_dga4" />
+	<entry name="Cluster_DGA5" value="extensions\egp_deadairfactiongaldente\assets\environments\cluster\cluster_dga5" />
+	<entry name="Cluster_DGA6" value="extensions\egp_deadairfactiongaldente\assets\environments\cluster\cluster_dga6" />
+	<entry name="Cluster_DGA7" value="extensions\egp_deadairfactiongaldente\assets\environments\cluster\cluster_dga7" />
+	<entry name="Cluster_DGA8" value="extensions\egp_deadairfactiongaldente\assets\environments\cluster\cluster_dga8" />
+</add>
+</diff>
