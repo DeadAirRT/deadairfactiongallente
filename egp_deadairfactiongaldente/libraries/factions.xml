@@ -2,7 +2,7 @@
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <add sel="//factions">
     <faction id="galdente" name="{4816303,100}" description="{4816303,101}" shortname="{4816303,102}" prefixname="{4816303,118}" primaryrace="argon" behaviourset="default" known="1" tags="claimspace economic police protective watchdoguser privateloadout publicloadout privateship publicship" policefaction="galdente">
-	  <color r="23" g="100" b="92" />
+	  <color r="0" g="102" b="85" /><!--<color r="23" g="100" b="92" />-->
       <icon active="faction_galdente" inactive="faction_galdente" />
       <licences>
 		<licence type="capitalequipment" name="{4816303,103}" icon="bse_star" minrelation="0.1" precursor="ceremonyally" price="0" />
