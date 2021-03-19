@@ -13,7 +13,7 @@
             <append_to_list name="global.$smugglercoverfactions" exact="faction.galdente"/>
           </do_if>
         </do_if>
-		<find_sector groupname="md.Khaak_Activity.Manager.$PotentialHiveStationSectors" macro="macro.cluster_DMI1_sector001_macro" />
+		<find_sector groupname="md.Khaak_Activity.Manager.$PotentialHiveStationSectors" macro="macro.cluster_DGA1_sector001_macro" />
       </actions>
     </cue>
 

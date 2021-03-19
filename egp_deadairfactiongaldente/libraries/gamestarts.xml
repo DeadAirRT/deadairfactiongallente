@@ -7,7 +7,7 @@
 				<item name="{1021,1}" value="{4816303,123}" />
 				<item name="{1021,3}"   value="20,000,000 {1001,101}" />
 			</info>
-			<location galaxy="xu_ep2_universe_macro" zone="zonedmic_cluster_dmi4_sector001_macro">
+			<location galaxy="xu_ep2_universe_macro" zone="zonedgac_cluster_dga4_sector001_macro">
 				<position x="28685" y="-1240" z="10695"/>
 				<rotation yaw="-115" pitch="0" roll="0" />
 			</location>
