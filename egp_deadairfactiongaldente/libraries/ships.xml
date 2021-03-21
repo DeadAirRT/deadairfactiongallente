@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
-  <ship id="galdente_builder_xl" group="par_builder_xl">
+  <ship id="galdente_builder_xl" group="dga_builder_xl">
     <category tags="[builder, mission]" faction="[galdente]" size="ship_xl"/>
     <pilot>
       <select faction="galdente" tags="traderpilot"/>
@@ -8,7 +8,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_elite_freighter_crew"/>
   </ship>
-  <ship id="galdente_resupplier_xl" group="par_resupplier_xl">
+  <ship id="galdente_resupplier_xl" group="dga_resupplier_xl">
     <category tags="[resupplier, mission]" faction="[galdente]" size="ship_xl"/>
     <pilot>
       <select faction="galdente" tags="traderpilot"/>
@@ -16,7 +16,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_elite_freighter_crew"/>
   </ship>
-  <ship id="galdente_trader_container_l" group="par_trader_container_l">
+  <ship id="galdente_trader_container_l" group="dga_trader_container_l">
     <category tags="[trader, container, mission]" faction="[galdente]" size="ship_l"/>
     <pilot>
       <select faction="galdente" tags="traderpilot"/>
@@ -25,7 +25,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_veteran_freighter_crew"/>
   </ship>
-  <ship id="galdente_trader_container_m" group="par_trader_container_m">
+  <ship id="galdente_trader_container_m" group="dga_trader_container_m">
     <category tags="[trader, container, mission]" faction="[galdente]" size="ship_m"/>
     <pilot>
       <select faction="galdente" tags="traderpilot"/>
@@ -34,7 +34,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="galdente_trader_container_s" group="par_trader_container_s">
+  <ship id="galdente_trader_container_s" group="dga_trader_container_s">
     <category tags="[trader, container, mission]" faction="[galdente]" size="ship_s"/>
     <pilot>
       <select faction="galdente" tags="traderpilot"/>
@@ -43,7 +43,7 @@
     <drop ref="ship_small_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="galdente_miner_solid_l" group="par_miner_solid_l">
+  <ship id="galdente_miner_solid_l" group="dga_miner_solid_l">
     <category tags="[miner, solid, mission]" faction="[galdente]" size="ship_l"/>
     <pilot>
       <select faction="galdente" tags="traderpilot"/>
@@ -52,7 +52,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_veteran_freighter_crew"/>
   </ship>
-  <ship id="galdente_miner_liquid_l" group="par_miner_liquid_l">
+  <ship id="galdente_miner_liquid_l" group="dga_miner_liquid_l">
     <category tags="[miner, liquid, mission]" faction="[galdente]" size="ship_l"/>
     <pilot>
       <select faction="galdente" tags="traderpilot"/>
@@ -61,7 +61,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_veteran_freighter_crew"/>
   </ship>
-  <ship id="galdente_miner_solid_m" group="par_miner_solid_m">
+  <ship id="galdente_miner_solid_m" group="dga_miner_solid_m">
     <category tags="[miner, solid, mission]" faction="[galdente]" size="ship_m"/>
     <pilot>
       <select faction="galdente" tags="traderpilot"/>
@@ -70,7 +70,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="galdente_miner_liquid_m" group="par_miner_liquid_m">
+  <ship id="galdente_miner_liquid_m" group="dga_miner_liquid_m">
     <category tags="[miner, liquid, mission]" faction="[galdente]" size="ship_m"/>
     <pilot>
       <select faction="galdente" tags="traderpilot"/>
@@ -79,7 +79,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="galdente_miner_solid_s" group="par_miner_solid_s">
+  <ship id="galdente_miner_solid_s" group="dga_miner_solid_s">
     <category tags="[miner, solid, mission]" faction="[galdente]" size="ship_s"/>
     <pilot>
       <select faction="galdente" tags="traderpilot"/>
@@ -88,7 +88,7 @@
     <drop ref="ship_small_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="galdente_miner_solid_mixed"  group="par_miner_solid_mixed">
+  <ship id="galdente_miner_solid_mixed"  group="dga_miner_solid_mixed">
     <category tags="[miner, solid, mixed]" faction="[galdente]"/>
     <owner exact="argon" overridenpc="true"/>
     <pilot>
@@ -98,7 +98,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="galdente_miner_liquid_mixed"  group="par_miner_liquid_mixed">
+  <ship id="galdente_miner_liquid_mixed"  group="dga_miner_liquid_mixed">
     <category tags="[miner, liquid, mixed]" faction="[galdente]"/>
     <owner exact="argon" overridenpc="true"/>
     <pilot>
@@ -108,7 +108,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="galdente_carrier_xl" group="par_carrier_xl">
+  <ship id="galdente_carrier_xl" group="dga_carrier_xl">
     <category tags="[military, carrier, mission]" faction="[galdente]" size="ship_xl"/>
     <pilot>
       <select faction="galdente" tags="fighterpilot"/>
@@ -116,7 +116,7 @@
     <drop ref="ship_large_military"/>
     <people ref="argon_elite_military_crew"/>
   </ship>
-  <ship id="galdente_destroyer_l" group="par_destroyer_l">
+  <ship id="galdente_destroyer_l" group="dga_destroyer_l">
     <category tags="[military, destroyer, mission]" faction="[galdente]" size="ship_l"/>
     <pilot>
       <select faction="galdente" tags="fighterpilot"/>
@@ -124,7 +124,7 @@
     <drop ref="ship_large_military"/>
     <people ref="argon_elite_military_crew"/>
   </ship>
-  <ship id="galdente_frigate_m" group="par_frigate_m">
+  <ship id="galdente_frigate_m" group="dga_frigate_m">
     <category tags="[military, medium, frigate, mission]" faction="[galdente]" size="ship_m"/>
     <pilot>
       <select faction="galdente" tags="fighterpilot"/>
@@ -132,7 +132,7 @@
     <drop ref="ship_small_military"/>
     <people ref="argon_veteran_military_crew"/>
   </ship>
-  <ship id="galdente_corvette_m" group="par_corvette_m">
+  <ship id="galdente_corvette_m" group="dga_corvette_m">
     <category tags="[military, medium, corvette, mission]" faction="[galdente]" size="ship_m"/>
     <pilot>
       <select faction="galdente" tags="fighterpilot"/>
@@ -140,15 +140,31 @@
     <drop ref="ship_small_military"/>
     <people ref="argon_veteran_military_crew"/>
   </ship>
-  <ship id="galdente_fighter_s" group="par_fighter_s">
-    <category tags="[military, fighter, heavy, light, selection, mission]" faction="[galdente]" size="ship_s"/>
+  <ship id="galdente_fighter_s" group="dga_fighter_s">
+    <category tags="[military, fighter, selection, mission]" faction="[galdente]" size="ship_s"/>
     <pilot>
       <select faction="galdente" tags="fighterpilot"/>
     </pilot>
     <drop ref="ship_small_military"/>
     <people ref="argon_military_crew"/>
   </ship>
-  <ship id="galdente_scout_s" group="par_scout_s">
+  <ship id="galdente_fighter_light_s" group="dga_fighter_light_s">
+    <category tags="[military, fighter, light, mission]" faction="[galdente]" size="ship_s"/>
+    <pilot>
+      <select faction="galdente" tags="fighterpilot"/>
+    </pilot>
+    <drop ref="ship_small_military"/>
+    <people ref="argon_military_crew"/>
+  </ship>
+  <ship id="galdente_fighter_heavy_s" group="dga_fighter_heavy_s">
+    <category tags="[military, fighter, heavy, mission]" faction="[galdente]" size="ship_s"/>
+    <pilot>
+      <select faction="galdente" tags="fighterpilot"/>
+    </pilot>
+    <drop ref="ship_small_military"/>
+    <people ref="argon_military_crew"/>
+  </ship>
+  <ship id="galdente_scout_s" group="dga_scout_s">
     <category tags="[military, scout, light, mission]" faction="[galdente]" size="ship_s"/>
     <pilot>
       <select faction="galdente" tags="fighterpilot"/>
