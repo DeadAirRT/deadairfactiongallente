@@ -124,6 +124,14 @@
     <drop ref="ship_large_military"/>
     <people ref="argon_elite_military_crew"/>
   </ship>
+  <ship id="galdente_escort_l" group="dga_escort_l">
+    <category tags="[military, escort, mission]" faction="[galdente]" size="ship_l"/>
+    <pilot>
+      <select faction="galdente" tags="fighterpilot"/>
+    </pilot>
+    <drop ref="ship_large_military"/>
+    <people ref="argon_elite_military_crew"/>
+  </ship>
   <ship id="galdente_frigate_m" group="dga_frigate_m">
     <category tags="[military, medium, frigate, mission]" faction="[galdente]" size="ship_m"/>
     <pilot>

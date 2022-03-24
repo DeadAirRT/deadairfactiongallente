@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="turret_dga_t3bc_425mm_iron_macro" class="turret">
+		<component ref="turret_dga_t3bc_425mm"/>
+		<properties>
+			<identification name="{4816303,204}" basename="{4816303,290}" shortname="{4816303,205}" description="{4816303,302}" />
+			<bullet class="bullet_dga_turret_l_425mm_iron_macro"/>
+			<rotationspeed max="5"/>
+			<rotationacceleration max="5"/>
+			<reload/>
+			<hull max="30000" threshold="0.2"/>
+		</properties>
+	</macro>
+</macros>
+

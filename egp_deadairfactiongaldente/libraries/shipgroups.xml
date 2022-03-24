@@ -65,6 +65,10 @@
 			<select macro="ship_par_l_destroyer_01_a_macro" weight="100"/>
 			<select macro="ship_par_l_destroyer_01_b_macro" weight="100"/>
 		</group>
+		<group name="dga_escort_l">
+			<select macro="ship_par_l_destroyer_01_a_macro" weight="100"/>
+			<select macro="ship_par_l_destroyer_01_b_macro" weight="100"/>
+		</group>
 		<group name="dga_frigate_m">
 			<select macro="ship_par_m_frigate_01_a_macro" weight="100"/>
 			<select macro="ship_par_m_frigate_01_b_macro" weight="100"/>

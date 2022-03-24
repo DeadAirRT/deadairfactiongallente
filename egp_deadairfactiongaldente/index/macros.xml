@@ -9,5 +9,34 @@
 	<entry name="cluster_DGA6_sector*" value="maps\xu_ep2_universe\sectors" />
 	<entry name="cluster_DGA7_sector*" value="maps\xu_ep2_universe\sectors" />
 	<entry name="cluster_DGA8_sector*" value="maps\xu_ep2_universe\sectors" />
+	<!-- Weapons -->
+	<entry name="turret_dga_l_425mm_antimatter_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_l_425mm_antimatter_macro" />
+	<entry name="turret_dga_l_425mm_lead_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_l_425mm_lead_macro" />
+	<entry name="turret_dga_l_425mm_iron_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_l_425mm_iron_macro" />
+	<entry name="turret_dga_m_250mm_antimatter_01_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_m_250mm_antimatter_01_macro" />
+	<entry name="turret_dga_m_250mm_antimatter_02_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_m_250mm_antimatter_02_macro" />
+	<entry name="turret_dga_m_250mm_lead_01_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_m_250mm_lead_01_macro" />
+	<entry name="turret_dga_m_250mm_lead_02_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_m_250mm_lead_02_macro" />
+	<entry name="turret_dga_m_250mm_iron_01_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_m_250mm_iron_01_macro" />
+	<entry name="turret_dga_m_250mm_iron_02_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_m_250mm_iron_02_macro" />
+	<entry name="weapon_dga_l_antimatter_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\capital\macros\weapon_dga_l_antimatter_macro" />
+	<entry name="weapon_dga_l_lead_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\capital\macros\weapon_dga_l_lead_macro" />
+	<entry name="weapon_dga_l_iron_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\capital\macros\weapon_dga_l_iron_macro" />
+	<entry name="weapon_dga_xl_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\capital\macros\weapon_dga_xl_macro" />
+	<!-- T3BC -->
+	<entry name="turret_dga_t3bc_425mm_antimatter_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_t3bc_425mm_antimatter_macro" />
+	<entry name="turret_dga_t3bc_425mm_lead_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_t3bc_425mm_lead_macro" />
+	<entry name="turret_dga_t3bc_425mm_iron_macro" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\macros\turret_dga_t3bc_425mm_iron_macro" />
+	<entry name="engine_dga_t3bc_macro" value="extensions\egp_deadairfactiongaldente\assets\props\engines\macros\engine_dga_t3bc_macro" />
+	<!-- Bullets -->
+	<entry name="bullet_dga_turret_l_425mm_antimatter_macro" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\macros\bullet_dga_turret_l_425mm_antimatter_macro" />
+	<entry name="bullet_dga_turret_l_425mm_lead_macro" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\macros\bullet_dga_turret_l_425mm_lead_macro" />
+	<entry name="bullet_dga_turret_l_425mm_iron_macro" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\macros\bullet_dga_turret_l_425mm_iron_macro" />
+	<entry name="bullet_dga_turret_m_250mm_antimatter_macro" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\macros\bullet_dga_turret_m_250mm_antimatter_macro" />
+	<entry name="bullet_dga_turret_m_250mm_lead_macro" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\macros\bullet_dga_turret_m_250mm_lead_macro" />
+	<entry name="bullet_dga_turret_m_250mm_iron_macro" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\macros\bullet_dga_turret_m_250mm_iron_macro" />
+	<entry name="bullet_weapon_dga_l_antimatter_macro" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\macros\bullet_weapon_dga_l_antimatter_macro" />
+	<entry name="bullet_weapon_dga_l_iron_macro" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\macros\bullet_weapon_dga_l_iron_macro" />
+	<entry name="bullet_weapon_dga_l_lead_macro" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\macros\bullet_weapon_dga_l_lead_macro" />
 </add>
 </diff>

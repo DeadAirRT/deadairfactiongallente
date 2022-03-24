@@ -419,34 +419,13 @@
   <add sel="/wares/ware[@id='ship_par_xs_police_01_a']">
     <owner faction="galdente" />
   </add>
-  <add sel="/wares/ware[@id='turret_par_l_laser_01_mk1']">
-    <owner faction="galdente" />
-  </add>
   <add sel="/wares/ware[@id='turret_par_l_mining_01_mk1']">
-    <owner faction="galdente" />
-  </add>
-  <add sel="/wares/ware[@id='turret_par_m_gatling_01_mk1']">
-    <owner faction="galdente" />
-  </add>
-  <add sel="/wares/ware[@id='turret_par_m_gatling_02_mk1']">
-    <owner faction="galdente" />
-  </add>
-  <add sel="/wares/ware[@id='turret_par_m_laser_01_mk1']">
-    <owner faction="galdente" />
-  </add>
-  <add sel="/wares/ware[@id='turret_par_m_laser_02_mk1']">
     <owner faction="galdente" />
   </add>
   <add sel="/wares/ware[@id='turret_par_m_mining_01_mk1']">
     <owner faction="galdente" />
   </add>
   <add sel="/wares/ware[@id='turret_par_m_mining_02_mk1']">
-    <owner faction="galdente" />
-  </add>
-  <add sel="/wares/ware[@id='turret_par_m_shotgun_01_mk1']">
-    <owner faction="galdente" />
-  </add>
-  <add sel="/wares/ware[@id='turret_par_m_shotgun_02_mk1']">
     <owner faction="galdente" />
   </add>
   <add sel="/wares/ware[@id='weapon_gen_m_gatling_01_mk1']">
@@ -509,9 +488,6 @@
   <add sel="/wares/ware[@id='weapon_gen_s_shotgun_01_mk2']">
     <owner faction="galdente" />
   </add>
-  <add sel="/wares/ware[@id='weapon_par_l_destroyer_01_mk1']">
-    <owner faction="galdente" />
-  </add>
   <add sel="/wares/ware[@id='weapon_par_m_railgun_01_mk1']">
     <owner faction="galdente" />
   </add>
@@ -550,4 +526,245 @@
     <price min="2500" average="3000" max="3500" />
   </ware>
 </add>
+	<!-- Weapons -->
+	<add sel="//wares">
+		<ware id="turret_dga_l_425mm_antimatter" name="{4816303,200}" description="{4816303,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="1625000" average="1750000" max="1875000"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="90"/>
+					<ware ware="energycells" amount="350"/>
+					<ware ware="turretcomponents" amount="280"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_l_425mm_antimatter_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="turret_dga_l_425mm_lead" name="{4816303,202}" description="{4816303,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="1430000" average="1540000" max="1650000"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="90"/>
+					<ware ware="energycells" amount="350"/>
+					<ware ware="turretcomponents" amount="280"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_l_425mm_lead_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="turret_dga_l_425mm_iron" name="{4816303,204}" description="{4816303,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="1300000" average="1400000" max="1500000"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="90"/>
+					<ware ware="energycells" amount="350"/>
+					<ware ware="turretcomponents" amount="280"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_l_425mm_iron_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="turret_dga_m_250mm_antimatter_01" name="{4816303,206}" description="{4816303,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="100000" average="106250" max="112500"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="3"/>
+					<ware ware="energycells" amount="26"/>
+					<ware ware="turretcomponents" amount="13"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_m_250mm_antimatter_01_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="turret_dga_m_250mm_antimatter_02" name="{4816303,206}" description="{4816303,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="100000" average="106250" max="112500"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="3"/>
+					<ware ware="energycells" amount="26"/>
+					<ware ware="turretcomponents" amount="13"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_m_250mm_antimatter_02_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="turret_dga_m_250mm_lead_01" name="{4816303,207}" description="{4816303,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="88000" average="93500" max="99000"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="3"/>
+					<ware ware="energycells" amount="26"/>
+					<ware ware="turretcomponents" amount="13"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_m_250mm_lead_01_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="turret_dga_m_250mm_lead_02" name="{4816303,207}" description="{4816303,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="88000" average="93500" max="99000"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="3"/>
+					<ware ware="energycells" amount="26"/>
+					<ware ware="turretcomponents" amount="13"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_m_250mm_lead_02_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="turret_dga_m_250mm_iron_01" name="{4816303,208}" description="{4816303,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="80000" average="85000" max="90000"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="3"/>
+					<ware ware="energycells" amount="26"/>
+					<ware ware="turretcomponents" amount="13"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_m_250mm_iron_01_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="turret_dga_m_250mm_iron_02" name="{4816303,208}" description="{4816303,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="80000" average="85000" max="90000"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="3"/>
+					<ware ware="energycells" amount="26"/>
+					<ware ware="turretcomponents" amount="13"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_m_250mm_iron_02_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="turret_dga_t3bc_425mm_antimatter" name="{4816303,200}" description="{4816303,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="1625000" average="1750000" max="1875000"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="90"/>
+					<ware ware="energycells" amount="350"/>
+					<ware ware="turretcomponents" amount="280"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_t3bc_425mm_antimatter_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="turret_dga_t3bc_425mm_lead" name="{4816303,202}" description="{4816303,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="1430000" average="1540000" max="1650000"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="90"/>
+					<ware ware="energycells" amount="350"/>
+					<ware ware="turretcomponents" amount="280"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_t3bc_425mm_lead_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="turret_dga_t3bc_425mm_iron" name="{4816303,204}" description="{4816303,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="1300000" average="1400000" max="1500000"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="90"/>
+					<ware ware="energycells" amount="350"/>
+					<ware ware="turretcomponents" amount="280"/>
+				</primary>
+			</production>
+			<component ref="turret_dga_t3bc_425mm_iron_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="engine_dga_t3bc" name="{20107,3084}" description="{20107,3002}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="321518" average="357242" max="392966"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="antimatterconverters" amount="147"/>
+					<ware ware="energycells" amount="25"/>
+					<ware ware="engineparts" amount="67"/>
+				</primary>
+			</production>
+			<component ref="engine_dga_t3bc_macro" amount="1"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="weapon_dga_l_antimatter" name="{4816303,200}" description="{4816303,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+			<price min="1036709" average="1240788" max="1344866"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="43"/>
+					<ware ware="energycells" amount="173"/>
+					<ware ware="weaponcomponents" amount="86"/>
+				</primary>
+			</production>
+			<component ref="weapon_dga_l_antimatter_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="weapon_dga_l_lead" name="{4816303,202}" description="{4816303,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+			<price min="1036709" average="1240788" max="1344866"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="43"/>
+					<ware ware="energycells" amount="173"/>
+					<ware ware="weaponcomponents" amount="86"/>
+				</primary>
+			</production>
+			<component ref="weapon_dga_l_lead_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="weapon_dga_l_iron" name="{4816303,204}" description="{4816303,302}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+			<price min="1036709" average="1240788" max="1344866"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="43"/>
+					<ware ware="energycells" amount="173"/>
+					<ware ware="weaponcomponents" amount="86"/>
+				</primary>
+			</production>
+			<component ref="weapon_dga_l_iron_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+		<ware id="weapon_dga_xl" name="{4816303,212}" description="{4816303,303}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+			<price min="10367090" average="12407880" max="13448660"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="430"/>
+					<ware ware="energycells" amount="1730"/>
+					<ware ware="weaponcomponents" amount="860"/>
+				</primary>
+			</production>
+			<component ref="weapon_dga_xl_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="galdente"/>
+		</ware>
+	</add>
 </diff>

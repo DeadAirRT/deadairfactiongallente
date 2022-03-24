@@ -9,5 +9,18 @@
 	<entry name="Cluster_DGA6" value="extensions\egp_deadairfactiongaldente\assets\environments\cluster\cluster_dga6" />
 	<entry name="Cluster_DGA7" value="extensions\egp_deadairfactiongaldente\assets\environments\cluster\cluster_dga7" />
 	<entry name="Cluster_DGA8" value="extensions\egp_deadairfactiongaldente\assets\environments\cluster\cluster_dga8" />
+	<!-- Turrets -->
+	<entry name="turret_dga_l_425mm" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\turret_dga_l_425mm" />
+	<entry name="turret_dga_m_250mm_01" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\turret_dga_m_250mm_01" />
+	<entry name="turret_dga_m_250mm_02" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\turret_dga_m_250mm_02" />
+	<entry name="weapon_dga_l" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\capital\weapon_dga_l" />
+	<entry name="weapon_dga_xl" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\capital\weapon_dga_xl" />
+	<!-- T3BC -->
+	<entry name="turret_dga_t3bc_425mm" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\turret_dga_t3bc_425mm" />
+	<entry name="engine_dga_t3bc" value="extensions\egp_deadairfactiongaldente\assets\props\engines\engine_dga_t3bc" />
+	<!-- Bullets -->
+	<entry name="bullet_dga_turret_l_425mm" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\bullet_dga_turret_l_425mm" />
+	<entry name="bullet_dga_turret_m_250mm" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\bullet_dga_turret_m_250mm" />
+	<entry name="bullet_weapon_dga_l" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\bullet_weapon_dga_l" />
 </add>
 </diff>

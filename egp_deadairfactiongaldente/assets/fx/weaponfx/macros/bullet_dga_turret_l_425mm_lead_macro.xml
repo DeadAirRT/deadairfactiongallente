@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="bullet_dga_turret_l_425mm_lead_macro" class="bullet">
+    <component ref="bullet_dga_turret_l_425mm" />
+    <properties>
+      <bullet speed="6000" lifetime="5" amount="1" barrelamount="2" icon="weapon_laser_mk1" angle="0.45" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="0"/>
+      <reload rate="0.075" />
+      <damage value="15833.3" shield="-6666.6" repair="0" />
+      <effects>
+        <impact ref="impact_par_m_railgun_01_mk1" inside="impact_par_m_railgun_01_mk1_inside" />
+        <bigobjectimpact ref="impact_par_m_railgun_01_mk1_bigobject" inside="impact_par_m_railgun_01_mk1_bigobject_inside" />
+        <launch ref="muzzle_par_m_railgun_01_mk1" />
+      </effects>
+      <weapon system="turret_midrange" />
+    </properties>
+  </macro>
+</macros>
