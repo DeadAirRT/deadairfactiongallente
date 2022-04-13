@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<components>
+	<component name="weapon_dga_m" class="weapon">
+		<source geometry="assets\props\WeaponSystems\heavy\weapon_par_m_railgun_01_mk2_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="Connection01" hidden="true" tags="part detail_xs nocollision  ">
+				<offset>
+					<position x="0" y="0" z="5.802541"/>
+				</offset>
+				<restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-10.0 "/>
+							<max value="10 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<parts>
+					<part name="detail_xs_rotator01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.25" y="0.25" z="0.25"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part platformcollision forceoutline  ">
+				<offset>
+					<position x="3.051758E-07" y="-1.591307E-07" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.412908" y="2.186336" z="2.239871"/>
+							<center x="-6.67572E-08" y="-7.928784E-08" z="2.239871"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part platformcollision forceoutline  ">
+				<offset>
+					<position x="0" y="-1.05192E-08" z="5.045097"/>
+				</offset>
+				<restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-10.0 "/>
+							<max value="10 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<parts>
+					<part name="part_rotator">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.354208" y="1.08142" z="2.006177"/>
+							<center x="-1.192093E-07" y="7.012385E-08" z="-0.1467423"/>
+						</size>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part platformcollision forceoutline  " parent="part_rotator">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10.0 "/>
+							<max value="10 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<offset>
+					<position x="5.720448E-06" y="5.684693E-06" z="7.49119"/>
+				</offset>
+				<parts>
+					<part name="part_gun">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.669552" y="1.804811" z="8.886436"/>
+							<center x="1.597527E-09" y="4.787171E-08" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Con_laser01" tags="laser " parent="part_gun">
+				<offset>
+					<position x="-4.979768E-06" y="2.123227E-02" z="-4.232725"/>
+				</offset>
+			</connection>
+			<connection name="Connection05" tags="part nocollision forceoutline detail_l  " parent="part_gun">
+				<offset>
+					<position x="-4.864305E-06" y="-6.589923E-06" z="-4.555674"/>
+				</offset>
+				<parts>
+					<part name="detail_l_gun">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.003438" y="1.837015" z="3.731753"/>
+							<center x="-5.960464E-08" y="-4.547474E-13" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part nocollision forceoutline detail_xl ">
+				<offset>
+					<position x="0" y="0" z="10.83102"/>
+				</offset>
+				<parts>
+					<part name="fx_gun_decals">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1paint.paint_p1_decal_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.477967" y="1.818151" z="8.361036"/>
+							<center x="0" y="5.662441E-06" z="2.22117"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection07" tags="part nocollision forceoutline detail_xl ">
+				<offset>
+					<position x="0" y="0" z="10.83102"/>
+				</offset>
+				<parts>
+					<part name="fx_decals">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1paint.paint_p1_decal_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.062134" y="2.048655" z="1.072473"/>
+							<center x="0" y="0" z="-9.509733"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="WeaponCon_01" tags="component weapon medium standard ">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="weapon_dga_s_iron_macro" class="weapon">
+		<component ref="weapon_dga_s"/>
+		<properties>
+			<identification name="{4816303,211}" basename="{4816303,292}" shortname="{4816303,205}" description="{4816303,302}"/>
+			<bullet class="bullet_weapon_dga_s_antimatter_macro"/>
+			<heat overheat="10000" cooldelay="1.13" coolrate="2000" reenable="7500"/>
+			<rotationspeed max="15"/>
+			<rotationacceleration max="30"/>
+			<reload/>
+			<hull max="1001" hittable="0"/>
+		</properties>
+	</macro>
+</macros>

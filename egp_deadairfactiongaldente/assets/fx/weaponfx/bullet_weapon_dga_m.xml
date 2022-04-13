@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<components>
+	<component name="bullet_weapon_dga_m" class="bullet">
+		<source geometry="assets\fx\weaponFx\bullet_par_m_railgun_01_mk2_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="bullet">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part ">
+				<offset>
+					<position x="-3.273844E-08" y="-1.499928E-02" z="-1.101375E-02"/>
+				</offset>
+				<parts>
+					<part name="rail_haze_01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.bullets_fx_master"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.937791" y="1.802744" z="0.5"/>
+							<center x="3.273844E-08" y="-5.401671E-08" z="0.5110137"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part ">
+				<offset>
+					<position x="6.63045E-09" y="4.109135E-05" z="1.175898E-02"/>
+				</offset>
+				<parts>
+					<part name="rail_haze_02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.bullets_fx_master"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.541328" y="1.382541" z="0.5"/>
+							<center x="-6.63045E-09" y="3.585592E-08" z="0.488241"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="connection_laser01" tags="laser">
+				<offset>
+					<position x="0" y="0" z="6.603815E-03"/>
+				</offset>
+			</connection>
+		</connections>
+	</component>
+</components>

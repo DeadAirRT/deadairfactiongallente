@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
-	<macro name="bullet_weapon_dga_l_antimatter_macro" class="bullet">
-		<component ref="bullet_weapon_dga_l"/>
+	<macro name="bullet_weapon_dga_m_antimatter_macro" class="bullet">
+		<component ref="bullet_weapon_dga_m"/>
 		<properties>
-			<bullet speed="19765" lifetime="0.557" amount="1" barrelamount="1" icon="weapon_laser_mk1" timediff="0.008" angle="0.45" maxhits="1" ricochet="0" scale="0" attach="0"/>
-			<heat value="1755"/>
-			<reload rate="0.09"/>
-			<damage value="42708.34" shield="-10416.66" repair="0"/>
+			<bullet speed="19765" lifetime="0.334" amount="1" barrelamount="1" icon="weapon_laser_mk1" timediff="0.008" angle="0.45" maxhits="1" ricochet="0" scale="0" attach="0"/>
+			<heat value="175"/>
+			<reload rate="0.9"/>
+			<damage value="2562.5" shield="-625.0" repair="0"/>
 			<effects>
 				<impact ref="impact_par_m_railgun_01_mk1" inside="impact_par_m_railgun_01_mk1_inside"/>
 				<bigobjectimpact ref="impact_par_m_railgun_01_mk1_bigobject" inside="impact_par_m_railgun_01_mk1_bigobject_inside"/>
