@@ -1,499 +1,449 @@
-﻿<?xml version="1.0" encoding="utf-8"?> 
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
-<!-- STATIONS --><!-- STATIONS --><!-- STATIONS --><!-- STATIONS --><!-- STATIONS --><!-- STATIONS --><!-- STATIONS --><!-- STATIONS -->
-<add sel="//god/stations">
-	<station id="dga_defence_cluster_DGA1_sector001" race="argon" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGA1_Cluster_DGA1_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[defence]" />
-      </station>
-    </station>
-	<station id="dga_defence_cluster_DGA1_sector001_02" race="argon" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGA5_Cluster_DGA1_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[defence]" />
-      </station>
-    </station>
-	<station id="dga_defence_cluster_DGA2_sector001" race="argon" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGAc_Cluster_DGA2_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[defence]" />
-      </station>
-    </station>
-	<station id="dga_defence_cluster_DGA3_sector001" race="argon" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGAc_Cluster_DGA3_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[defence]" />
-      </station>
-    </station>
-	<station id="dga_defence_cluster_DGA4_sector001" race="argon" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGAc_Cluster_DGA4_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[defence]" />
-      </station>
-    </station>
-	<station id="dga_defence_cluster_DGA5_sector001" race="argon" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGAc_Cluster_DGA5_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[defence]" />
-      </station>
-    </station>
-	<station id="dga_defence_cluster_DGA6_sector001" race="argon" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGAc_Cluster_DGA6_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[defence]" />
-      </station>
-    </station>
-	<station id="dga_defence_cluster_DGA7_sector001" race="argon" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGAc_Cluster_DGA7_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[defence]" />
-      </station>
-    </station>
-	<station id="shipyard_galdente_01" race="argon" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGA3_Cluster_DGA4_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[shipyard]" />
-        <loadout>
-          <level exact="1.0" />
-        </loadout>
-      </station>
-    </station>
-	<station id="wharf_galdente_01" race="argon" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGA5_Cluster_DGA4_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[wharf]" />
-        <loadout>
-          <level exact="1.0" />
-        </loadout>
-      </station>
-    </station>
-	<station id="tradestation_galdente_01" race="argon" owner="galdente" type="tradingstation">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGAc_Cluster_DGA1_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[tradestation]" />
-        <loadout>
-          <level min="0.75" max="1.0" />
-        </loadout>
-      </station>
-    </station>
-	<station id="equipmentdock_galdente_01" race="argon" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGAc_Cluster_DGA1_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="argon" tags="[equipmentdock]" />
-        <loadout>
-          <level exact="1.0" />
-        </loadout>
-      </station>
-    </station>
-</add>
-<!-- END STATIONS --><!-- END STATIONS --><!-- END STATIONS --><!-- END STATIONS --><!-- END STATIONS --><!-- END STATIONS --><!-- END STATIONS --><!-- END STATIONS -->
-<!-- PRODUCTS --><!-- PRODUCTS --><!-- PRODUCTS --><!-- PRODUCTS --><!-- PRODUCTS --><!-- PRODUCTS --><!-- PRODUCTS --><!-- PRODUCTS -->
-<add sel="//god/products">
-	<product id="dga_advancedcomposites" ware="advancedcomposites" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="4"/><!--minoradvancedcomposites-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="advancedcomposites" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_advancedelectronics" ware="advancedelectronics" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="16" sector="8"/><!--minoradvancedelectronics-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="advancedelectronics" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_antimattercells" ware="antimattercells" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="4" /><!--minorantimattercells-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-        <region ware="hydrogen" max="120000" />
-
-      </location>
-      <module>
-        <select ware="antimattercells" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_antimatterconverters" ware="antimatterconverters" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="8" sector="6"/><!--minorantimatterconverters-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="antimatterconverters" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_claytronics" ware="claytronics" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="16" sector="8"/><!--minorclaytronics-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="claytronics" race="argon" />
-      </module>
-    </product>
-
-    <product id="dga_dronecomponents" ware="dronecomponents" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="4" /><!--minordronecomponents-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="dronecomponents" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_energycells" ware="energycells" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="40" sector="18"/><!--minorenergycells-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-        <sunlight min="0.5" />
-      </location>
-      <module>
-        <select ware="energycells" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_engineparts" ware="engineparts" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="10" sector="8"/><!--minorengineparts-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="engineparts" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_fieldcoils" ware="fieldcoils" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="4" /><!--minorfieldcoils-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="fieldcoils" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_foodrations" ware="foodrations" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="25" sector="8"/><!--minorfood-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="foodrations" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_graphene" ware="graphene" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="26"/><!--minorgraphene-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-		<region ware="methane" max="120000" />
-
-      </location>
-      <module>
-        <select ware="graphene" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_hullparts" ware="hullparts" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="72" sector="16"/><!--minorhullparts-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="hullparts" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_meat" ware="meat" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="8" /><!--minorsubfood-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="meat" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_medicalsupplies" ware="medicalsupplies" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="40" sector="10"/><!--minormedicalsupplies-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="medicalsupplies" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_microchips" ware="microchips" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="42" sector="16"/><!--minormicrochips-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="microchips" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_missilecomponents" ware="missilecomponents" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="8" /><!--minormissilecomponents-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="missilecomponents" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_plasmaconductors" ware="plasmaconductors" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="18" sector="8"/><!--minorplasmaconductors-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="plasmaconductors" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_quantumtubes" ware="quantumtubes" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="24"/><!--minorquantumtubes-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="quantumtubes" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_refinedmetals" ware="refinedmetals" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="46"/><!--minorrefinedmetals-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-		<region ware="ore" max="120000" />
-
-      </location>
-      <module>
-        <select ware="refinedmetals" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_scanningarrays" ware="scanningarrays" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="8" /><!--minorscanningarrays-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="scanningarrays" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_shieldcomponents" ware="shieldcomponents" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="16" sector="8"/><!--minorshieldcomponents-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="shieldcomponents" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_siliconwafers" ware="siliconwafers" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="28"/><!--minorsiliconwafers-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-		<region ware="silicon" max="120000"/>
-
-      </location>
-      <module>
-        <select ware="siliconwafers" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_smartchips" ware="smartchips" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="16" sector="8"/><!--minorsmartchips-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="smartchips" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_spices" ware="spices" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="12" sector="6"/><!--minorsubfood-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="spices" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_superfluidcoolant" ware="superfluidcoolant" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="10" /><!--minorsuperfluidcoolant-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-		<region ware="helium" max="120000" />
-
-      </location>
-      <module>
-        <select ware="superfluidcoolant" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_turretcomponents" ware="turretcomponents" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="16" sector="8"/><!--minorturretcomponents-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="turretcomponents" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_water" ware="water" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="4" /><!--minorwater-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-		<region ware="ice" max="120000" />
-
-      </location>
-      <module>
-        <select ware="water" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_weaponcomponents" ware="weaponcomponents" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="16" sector="8"/><!--minorweaponcomponents-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="weaponcomponents" race="argon"/>
-      </module>
-    </product>
-
-    <product id="dga_wheat" ware="wheat" owner="galdente" type="factory">
-      <quotas>
-        <quota galaxy="9" /><!--minorsubfood-->
-      </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
-
-      </location>
-      <module>
-        <select ware="wheat" race="argon"/>
-      </module>
-    </product>
-</add>
-<!-- END PRODUCTS --><!-- END PRODUCTS --><!-- END PRODUCTS --><!-- END PRODUCTS --><!-- END PRODUCTS --><!-- END PRODUCTS --><!-- END PRODUCTS --><!-- END PRODUCTS -->
-<add sel="//god/stations">
-	<station id="par_defence_cluster_38_sector001_DGA" race="paranid" owner="paranid" type="factory">
-      <quotas>
-        <quota galaxy="1" zone="1" />
-      </quotas>
-      <location class="zone" macro="ZoneDGA4_Cluster_38_Sector001_macro" matchextension="false"/>
-      <station>
-        <select faction="paranid" tags="[defence]" />
-		<loadout>
-          <level exact="1.0" />
-        </loadout>
-      </station>
-    </station>
-</add>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- STATIONS STATIONS STATIONS STATIONS STATIONS STATIONS -->
+	<add sel="//god/stations">
+		<station id="dga_defence_cluster_DGA1_sector001" race="argon" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGA1_Cluster_DGA1_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dga_defence_cluster_DGA1_sector001_02" race="argon" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGA5_Cluster_DGA1_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dga_defence_cluster_DGA2_sector001" race="argon" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGAc_Cluster_DGA2_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dga_defence_cluster_DGA3_sector001" race="argon" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGAc_Cluster_DGA3_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dga_defence_cluster_DGA4_sector001" race="argon" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGAc_Cluster_DGA4_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dga_defence_cluster_DGA5_sector001" race="argon" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGAc_Cluster_DGA5_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dga_defence_cluster_DGA6_sector001" race="argon" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGAc_Cluster_DGA6_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dga_defence_cluster_DGA7_sector001" race="argon" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGAc_Cluster_DGA7_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="shipyard_galdente_01" race="argon" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGA3_Cluster_DGA4_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[shipyard]"/>
+				<loadout>
+					<level exact="1.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="wharf_galdente_01" race="argon" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGA5_Cluster_DGA4_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[wharf]"/>
+				<loadout>
+					<level exact="1.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="tradestation_galdente_01" race="argon" owner="galdente" type="tradingstation">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGAc_Cluster_DGA1_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[tradestation]"/>
+				<loadout>
+					<level min="0.75" max="1.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="equipmentdock_galdente_01" race="argon" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGAc_Cluster_DGA1_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="argon" tags="[equipmentdock]"/>
+				<loadout>
+					<level exact="1.0"/>
+				</loadout>
+			</station>
+		</station>
+	</add>
+	<!-- END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS -->
+	<!-- PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS -->
+	<add sel="//god/products">
+		<product id="dga_advancedcomposites" ware="advancedcomposites" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="4"/>
+				<!--minoradvancedcomposites-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="advancedcomposites" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_advancedelectronics" ware="advancedelectronics" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="8"/>
+				<!--minoradvancedelectronics-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="advancedelectronics" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_antimattercells" ware="antimattercells" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="4"/>
+				<!--minorantimattercells-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
+				<region ware="hydrogen" max="120000"/>
+			</location>
+			<module>
+				<select ware="antimattercells" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_antimatterconverters" ware="antimatterconverters" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="8" sector="6"/>
+				<!--minorantimatterconverters-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="antimatterconverters" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_claytronics" ware="claytronics" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="8"/>
+				<!--minorclaytronics-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="claytronics" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_dronecomponents" ware="dronecomponents" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="4"/>
+				<!--minordronecomponents-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="dronecomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_energycells" ware="energycells" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="40" sector="18"/>
+				<!--minorenergycells-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
+				<sunlight min="0.5"/>
+			</location>
+			<module>
+				<select ware="energycells" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_engineparts" ware="engineparts" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="10" sector="8"/>
+				<!--minorengineparts-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="engineparts" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_fieldcoils" ware="fieldcoils" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="4"/>
+				<!--minorfieldcoils-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="fieldcoils" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_foodrations" ware="foodrations" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="25" sector="8"/>
+				<!--minorfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="foodrations" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_graphene" ware="graphene" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="26"/>
+				<!--minorgraphene-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
+				<region ware="methane" max="120000"/>
+			</location>
+			<module>
+				<select ware="graphene" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_hullparts" ware="hullparts" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="72" sector="16"/>
+				<!--minorhullparts-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="hullparts" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_meat" ware="meat" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="8"/>
+				<!--minorsubfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="meat" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_medicalsupplies" ware="medicalsupplies" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="40" sector="10"/>
+				<!--minormedicalsupplies-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="medicalsupplies" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_microchips" ware="microchips" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="42" sector="16"/>
+				<!--minormicrochips-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="microchips" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_missilecomponents" ware="missilecomponents" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="8"/>
+				<!--minormissilecomponents-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="missilecomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_plasmaconductors" ware="plasmaconductors" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="18" sector="8"/>
+				<!--minorplasmaconductors-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="plasmaconductors" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_quantumtubes" ware="quantumtubes" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="24"/>
+				<!--minorquantumtubes-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="quantumtubes" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_refinedmetals" ware="refinedmetals" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="46"/>
+				<!--minorrefinedmetals-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
+				<region ware="ore" max="120000"/>
+			</location>
+			<module>
+				<select ware="refinedmetals" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_scanningarrays" ware="scanningarrays" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="8"/>
+				<!--minorscanningarrays-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="scanningarrays" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_shieldcomponents" ware="shieldcomponents" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="8"/>
+				<!--minorshieldcomponents-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="shieldcomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_siliconwafers" ware="siliconwafers" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="28"/>
+				<!--minorsiliconwafers-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
+				<region ware="silicon" max="120000"/>
+			</location>
+			<module>
+				<select ware="siliconwafers" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_smartchips" ware="smartchips" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="8"/>
+				<!--minorsmartchips-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="smartchips" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_spices" ware="spices" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="12" sector="6"/>
+				<!--minorsubfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="spices" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_superfluidcoolant" ware="superfluidcoolant" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="10"/>
+				<!--minorsuperfluidcoolant-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
+				<region ware="helium" max="120000"/>
+			</location>
+			<module>
+				<select ware="superfluidcoolant" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_turretcomponents" ware="turretcomponents" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="20" sector="8"/>
+				<!--minorturretcomponents-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="turretcomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_water" ware="water" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="8"/>
+				<!--minorwater-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false">
+				<region ware="ice" max="120000"/>
+			</location>
+			<module>
+				<select ware="water" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_weaponcomponents" ware="weaponcomponents" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="8"/>
+				<!--minorweaponcomponents-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="weaponcomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="dga_wheat" ware="wheat" owner="galdente" type="factory">
+			<quotas>
+				<quota galaxy="9"/>
+				<!--minorsubfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[galdente]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="wheat" race="argon"/>
+			</module>
+		</product>
+	</add>
+	<!-- END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS -->
+	<add sel="//god/stations">
+		<station id="par_defence_cluster_38_sector001_DGA" race="paranid" owner="paranid" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDGA4_Cluster_38_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="paranid" tags="[defence]"/>
+				<loadout>
+					<level exact="1.0"/>
+				</loadout>
+			</station>
+		</station>
+	</add>
 </diff>
