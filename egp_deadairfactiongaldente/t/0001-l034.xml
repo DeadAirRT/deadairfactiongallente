@@ -37,6 +37,7 @@
 		<t id="130">Seyllin</t>
 		<t id="131">xxx</t>
 		<t id="132">xxx</t>
+		<t id="199">Gallente</t>
 		<!-- Equipment -->
 		<t id="200">{4816303,102}(GAL) {20111,5031}(L) 425MM Antimatter Railgun</t>
 		<t id="201">Antimatter</t>
@@ -60,5 +61,11 @@
 		<t id="301">Consists of two components: a shell of titanium and a core of lead atoms suspended in a plasma state. Railguns launch the shell directly, while particle blasters pump the plasma into a cyclotron and process the plasma into a bolt that is then fired.</t>
 		<t id="302">Consists of two components: a shell of titanium and a core of iron atoms suspended in a plasma state. Railguns launch the shell directly, while particle blasters pump the plasma into a cyclotron and process the plasma into a bolt that is then fired.</t>
 		<t id="303">Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target.</t>
+		<!-- Stations -->
+		<t id="1101">Gallente Defence Platform</t>
+		<t id="1111">Gallente Trading Station</t>
+		<t id="1121">Gallente Equipment Dock</t>
+		<t id="1131">Gallente Shipyard</t>
+		<t id="1141">Gallente Wharf</t>
 	</page>
 </language>

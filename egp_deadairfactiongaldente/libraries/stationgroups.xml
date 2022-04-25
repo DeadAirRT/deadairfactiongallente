@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+	<add sel="//groups">
+		<group name="shipyard_dga">
+			<select constructionplan="dga_shipyard"/>
+		</group>
+		<group name="wharf_dga">
+			<select constructionplan="dga_wharf"/>
+		</group>
+		<group name="equipmentdock_dga">
+			<select constructionplan="dga_equipmentdock"/>
+		</group>
+		<group name="tradestation_dga">
+			<select constructionplan="dga_tradestation"/>
+		</group>
+		<group name="defence_dga">
+			<select constructionplan="dga_defence"/>
+		</group>
+	</add>
+</diff>

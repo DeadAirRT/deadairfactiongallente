@@ -52,7 +52,7 @@
 			</connection>
 			<connection name="CDGA1S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="-124200" y="-10000" z="82800" />
+					<position x="-124200" y="0" z="82800" />
 				</offset>
 				<macro name="CDGA1S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -115,7 +115,7 @@
 			</connection>
 			<connection name="CDGA2S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="-124200" y="-10000" z="-82800" />
+					<position x="-124200" y="0" z="-82800" />
 				</offset>
 				<macro name="CDGA2S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -178,7 +178,7 @@
 			</connection>
 			<connection name="CDGA3S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="0" y="-10000" z="150000" />
+					<position x="0" y="0" z="150000" />
 				</offset>
 				<macro name="CDGA3S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -241,23 +241,12 @@
 			</connection>
 			<connection name="CDGA4S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="0" y="-10000" z="150000" />
+					<position x="0" y="0" z="150000" />
 				</offset>
 				<macro name="CDGA4S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
 						<region ref="region_dga_veryhigh_silicon" />
-					</properties>
-				</macro>
-			</connection>
-			<connection name="CDGA4S01_Region006_connection" ref="regions">
-				<offset>
-					<position x="0" y="0" z="1" />
-				</offset>
-				<macro name="CDGA4S01_Region006_macro">
-					<component connection="cluster" ref="standardregion" />
-					<properties>
-						<region ref="region_dga4_volumetricfog_01" />
 					</properties>
 				</macro>
 			</connection>
@@ -315,7 +304,7 @@
 			</connection>
 			<connection name="CDGA5S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="0" y="-10000" z="-150000" />
+					<position x="0" y="0" z="-150000" />
 				</offset>
 				<macro name="CDGA5S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -378,7 +367,7 @@
 			</connection>
 			<connection name="CDGA6S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="124200" y="-10000" z="82800" />
+					<position x="124200" y="0" z="82800" />
 				</offset>
 				<macro name="CDGA6S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -441,7 +430,7 @@
 			</connection>
 			<connection name="CDGA7S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="124200" y="-10000" z="-82800" />
+					<position x="124200" y="0" z="-82800" />
 				</offset>
 				<macro name="CDGA7S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -498,17 +487,6 @@
 					<component connection="cluster" ref="standardregion" />
 					<properties>
 						<region ref="region_dga8_gas_01" />
-					</properties>
-				</macro>
-			</connection>
-			<connection name="CDGA8S01_Region005_connection" ref="regions">
-				<offset>
-					<position x="0" y="0" z="1" />
-				</offset>
-				<macro name="CDGA8S01_Region005_macro">
-					<component connection="cluster" ref="standardregion" />
-					<properties>
-						<region ref="region_dga8_volumetricfog_01" />
 					</properties>
 				</macro>
 			</connection>

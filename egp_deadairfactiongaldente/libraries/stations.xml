@@ -1,24 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
-<add sel="//stations">
-  <station id="shipyard_dga" group="shipyard_arg">
-    <category tags="shipyard" faction="[galdente]" />
-  </station>
-
-  <station id="wharf_dga" group="wharf_arg">
-    <category tags="wharf" faction="[galdente]" />
-  </station>
-
-  <station id="equipmentdock_dga" group="equipmentdock_arg">
-    <category tags="equipmentdock" faction="[galdente]" />
-  </station>
-
-  <station id="tradestation_dga" group="tradestation_arg">
-    <category tags="tradestation" faction="[galdente]" />
-  </station>
-
-  <station id="defence_dga" group="defence_arg">
-    <category tags="defence" faction="[galdente]" />
-  </station>
-</add>
+	<add sel="//stations">
+		<station id="shipyard_dga" group="shipyard_dga">
+			<category tags="shipyard" faction="[galdente]"/>
+		</station>
+		<station id="wharf_dga" group="wharf_dga">
+			<category tags="wharf" faction="[galdente]"/>
+		</station>
+		<station id="equipmentdock_dga" group="equipmentdock_dga">
+			<category tags="equipmentdock" faction="[galdente]"/>
+		</station>
+		<station id="tradestation_dga" group="tradestation_dga">
+			<category tags="tradestation" faction="[galdente]"/>
+		</station>
+		<station id="defence_dga" group="defence_dga">
+			<category tags="defence" faction="[galdente]"/>
+		</station>
+	</add>
 </diff>
