@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="bullet_dga_turret_m_250mm" class="bullet">
-		<source geometry="assets\fx\weaponFx\bullet_par_s_railgun_01_mk2_data"/>
+		<source geometry="extensions\egp_deadairfactiongaldente\assets\fx\weaponFx\bullet_dga_railgun_s_data"/>
 		<layers>
 			<layer>
 				<waypoints/>
@@ -51,6 +51,31 @@
 							<max x="0.5518546" y="0.5663596" z="0.5"/>
 							<center x="-6.63045E-09" y="-7.450581E-09" z="0.488241"/>
 						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part animation  ">
+				<offset/>
+				<animations>
+					<animation name="loop" start="1" end="100"/>
+				</animations>
+				<parts>
+					<part name="anim_bullet">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.bullets_fx_master"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="9.462389" y="9.485668" z="21.4971"/>
+							<center x="0" y="0" z="-14.82251"/>
+						</size>
+						<size_raw>
+							<max x="9.390436" y="9.390436" z="21.4971"/>
+							<center x="5.732059E-03" y="6.903601E-02" z="-14.82251"/>
+						</size_raw>
 					</part>
 				</parts>
 			</connection>

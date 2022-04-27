@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="bullet_weapon_dga_l" class="bullet">
-		<source geometry="assets\fx\weaponFx\bullet_par_m_railgun_01_mk2_data"/>
+		<source geometry="extensions\egp_deadairfactiongaldente\assets\fx\weaponFx\bullet_dga_railgun_m_data"/>
 		<layers>
 			<layer>
 				<waypoints/>
@@ -53,6 +53,34 @@
 						</size>
 					</part>
 				</parts>
+			</connection>
+			<connection name="Connection01" tags="part animation  ">
+				<offset>
+					<position x="0" y="1.700214E-02" z="-0.4778519"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="100"/>
+				</animations>
+				<parts>
+					<part name="part_bullet">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.bullets_fx_master_noscaling"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="50.31646" y="50.31646" z="118.587"/>
+							<center x="0" y="3.784895E-06" z="-115.5113"/>
+						</size>
+						<size_raw>
+							<max x="50.28078" y="50.28078" z="118.587"/>
+							<center x="2.432442E-02" y="-2.612689E-02" z="-115.5113"/>
+						</size_raw>
+					</part>
+				</parts>
+				<waypoints/>
 			</connection>
 			<connection name="connection_laser01" tags="laser">
 				<offset>

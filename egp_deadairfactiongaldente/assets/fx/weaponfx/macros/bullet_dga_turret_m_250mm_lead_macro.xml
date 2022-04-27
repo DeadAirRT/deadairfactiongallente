@@ -3,7 +3,7 @@
 	<macro name="bullet_dga_turret_m_250mm_lead_macro" class="bullet">
 		<component ref="bullet_dga_turret_m_250mm"/>
 		<properties>
-			<bullet speed="19765" lifetime="0.668" amount="1" barrelamount="2" icon="weapon_laser_mk1" angle="0.45" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="0"/>
+			<bullet speed="19765" lifetime="0.668" amount="1" barrelamount="1" icon="weapon_laser_mk1" angle="0.45" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="0"/>
 			<reload rate="0.9"/>
 			<damage value="1350.0" shield="-300" repair="0"/>
 			<effects>
