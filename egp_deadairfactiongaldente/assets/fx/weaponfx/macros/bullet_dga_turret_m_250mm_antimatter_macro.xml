@@ -5,7 +5,7 @@
 		<properties>
 			<bullet speed="19765" lifetime="0.334" amount="1" barrelamount="1" icon="weapon_laser_mk1" angle="0.45" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="0"/>
 			<reload rate="0.9"/>
-			<damage value="2050.0" shield="-500" repair="0"/>
+			<damage value="1089.06" shield="-265.63" repair="0"/>
 			<effects>
 				<impact ref="impact_par_s_railgun_01_mk1" inside="impact_par_s_railgun_01_mk1_inside"/>
 				<bigobjectimpact ref="impact_par_s_railgun_01_mk1_bigobject" inside="impact_par_s_railgun_01_mk1_bigobject_inside"/>
