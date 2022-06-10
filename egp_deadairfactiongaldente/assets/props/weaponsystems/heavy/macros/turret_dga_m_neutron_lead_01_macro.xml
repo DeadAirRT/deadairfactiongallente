@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="turret_dga_m_neutron_lead_01_macro" class="turret" alias="turret_dga_m_neutron_lead_02_macro">
+		<component ref="turret_dga_m_neutron_01"/>
+		<properties>
+			<identification name="{4816303,217}" basename="{4816303,289}" shortname="{4816303,274}" description="{4816303,301}" />
+			<bullet class="bullet_turret_dga_m_neutron_lead_macro"/>
+			<rotationspeed max="20.04"/>
+			<rotationacceleration max="40.08"/>
+			<reload/>
+			<hull threshold="0.2" integrated="1"/>
+		</properties>
+	</macro>
+</macros>

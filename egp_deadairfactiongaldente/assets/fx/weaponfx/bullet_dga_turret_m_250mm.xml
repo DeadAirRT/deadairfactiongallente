@@ -1,11 +1,18 @@
 <?xml version="1.0"?>
 <components>
 	<component name="bullet_dga_turret_m_250mm" class="bullet">
-		<source geometry="extensions\egp_deadairfactiongaldente\assets\fx\weaponFx\bullet_dga_railgun_s_data"/>
+		<source geometry="extensions\egp_deadairfactiongaldente\assets\fx\weaponFx\bullet_dga_railgun_m_data"/>
 		<layers>
 			<layer>
 				<waypoints/>
-				<lights/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="165" g="254" b="144" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="5" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="4.060364E-02" y="0" z="15.04399"/>
+						</offset>
+					</omni>
+				</lights>
 			</layer>
 		</layers>
 		<connections>
@@ -14,7 +21,39 @@
 			<connection name="space" tags="bullet">
 				<offset/>
 			</connection>
-			<connection name="Connection01" tags="part ">
+			<!-- gen s plasma mk1 -->
+			<connection name="Connection01" tags="part animation  ">
+				<offset>
+					<position x="0" y="0" z="15.85679"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="100"/>
+				</animations>
+				<parts>
+					<part name="anim_bullet">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.bullets_fx_master"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.676342" y="2.703561" z="9.930487"/>
+							<center x="1.293564E-02" y="-8.188248E-03" z="-4.92873"/>
+						</size>
+						<size_raw>
+							<max x="2.438426" y="2.532297" z="9.930487"/>
+							<center x="6.252527E-04" y="1.529634E-02" z="-4.92873"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection_Laser01" tags="laser">
+				<offset/>
+			</connection>
+			<!-- par s railgun mk1 -->
+			<connection name="Connection03" tags="part ">
 				<offset>
 					<position x="-3.273844E-08" y="-1.055976E-02" z="-1.101375E-02"/>
 				</offset>
@@ -34,7 +73,7 @@
 					</part>
 				</parts>
 			</connection>
-			<connection name="Connection02" tags="part ">
+			<connection name="Connection04" tags="part ">
 				<offset>
 					<position x="6.63045E-09" y="-4.398458E-03" z="1.175898E-02"/>
 				</offset>
@@ -53,36 +92,6 @@
 						</size>
 					</part>
 				</parts>
-			</connection>
-			<connection name="Connection03" tags="part animation  ">
-				<offset/>
-				<animations>
-					<animation name="loop" start="1" end="100"/>
-				</animations>
-				<parts>
-					<part name="anim_bullet">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="effects.bullets_fx_master"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="9.462389" y="9.485668" z="21.4971"/>
-							<center x="0" y="0" z="-14.82251"/>
-						</size>
-						<size_raw>
-							<max x="9.390436" y="9.390436" z="21.4971"/>
-							<center x="5.732059E-03" y="6.903601E-02" z="-14.82251"/>
-						</size_raw>
-					</part>
-				</parts>
-			</connection>
-			<connection name="connection_laser01" tags="laser">
-				<offset>
-					<position x="0" y="0" z="6.603815E-03"/>
-				</offset>
 			</connection>
 		</connections>
 	</component>

@@ -17,14 +17,20 @@
 		<entry name="weapon_dga_xl" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\capital\weapon_dga_xl"/>
 		<entry name="weapon_dga_m" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\weapon_dga_m"/>
 		<entry name="weapon_dga_s" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\weapon_dga_s"/>
+		<entry name="turret_dga_l_neutron" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\turret_dga_l_neutron"/>
+		<entry name="turret_dga_m_neutron_01" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\turret_dga_m_neutron_01"/>
+		<entry name="turret_dga_m_neutron_02" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\turret_dga_m_neutron_02"/>
 		<!-- T3BC -->
 		<entry name="turret_dga_t3bc_425mm" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\turret_dga_t3bc_425mm"/>
 		<entry name="engine_dga_t3bc" value="extensions\egp_deadairfactiongaldente\assets\props\engines\engine_dga_t3bc"/>
+		<entry name="turret_dga_t3bc_neutron" value="extensions\egp_deadairfactiongaldente\assets\props\weaponsystems\heavy\turret_dga_t3bc_neutron"/>
 		<!-- Bullets -->
 		<entry name="bullet_dga_turret_l_425mm" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\bullet_dga_turret_l_425mm"/>
 		<entry name="bullet_dga_turret_m_250mm" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\bullet_dga_turret_m_250mm"/>
 		<entry name="bullet_weapon_dga_l" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\bullet_weapon_dga_l"/>
 		<entry name="bullet_weapon_dga_m" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\bullet_weapon_dga_m"/>
 		<entry name="bullet_weapon_dga_s" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\bullet_weapon_dga_s"/>
+		<entry name="bullet_turret_dga_l_neutron" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\bullet_turret_dga_l_neutron"/>
+		<entry name="bullet_turret_dga_m_neutron" value="extensions\egp_deadairfactiongaldente\assets\fx\weaponfx\bullet_turret_dga_m_neutron"/>
 	</add>
 </diff>

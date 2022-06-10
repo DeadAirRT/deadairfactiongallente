@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<components>
+	<component name="bullet_turret_dga_m_neutron" class="bullet">
+		<source geometry="assets\fx\weaponFx\bullet_gen_m_plasma_01_mk2_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="156" g="185" b="114" range="28.6" shadowrange="28.6" lighteffect="1" trigger="1" intensity="3" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="0" y="0" z="-1.98838"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="bullet">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part animation  ">
+				<offset/>
+				<animations>
+					<animation name="loop" start="1" end="100"/>
+				</animations>
+				<parts>
+					<part name="anim_bullet">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.bullets_fx_master"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="9.462389" y="9.485668" z="21.4971"/>
+							<center x="0" y="0" z="-14.82251"/>
+						</size>
+						<size_raw>
+							<max x="9.390436" y="9.390436" z="21.4971"/>
+							<center x="5.732059E-03" y="6.903601E-02" z="-14.82251"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection_Laser01" tags="laser">
+				<offset>
+					<position x="0" y="0" z="-17.72348"/>
+				</offset>
+			</connection>
+		</connections>
+	</component>
+</components>

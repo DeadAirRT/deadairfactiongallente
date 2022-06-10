@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="turret_dga_l_neutron_iron_macro" class="turret">
+		<component ref="turret_dga_l_neutron"/>
+		<properties>
+			<identification name="{4816303,215}" basename="{4816303,288}" shortname="{4816303,269}" description="{4816303,302}" />
+			<bullet class="bullet_turret_dga_l_neutron_iron_macro"/>
+			<rotationspeed max="6"/>
+			<rotationacceleration max="12"/>
+			<reload/>
+			<hull max="30000" threshold="0.2"/>
+		</properties>
+	</macro>
+</macros>

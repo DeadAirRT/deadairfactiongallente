@@ -3,9 +3,9 @@
 	<macro name="bullet_dga_turret_m_250mm_iron_macro" class="bullet">
 		<component ref="bullet_dga_turret_m_250mm"/>
 		<properties>
-			<bullet speed="19765" lifetime="1.069" amount="1" barrelamount="1" icon="weapon_laser_mk1" angle="0.45" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="0"/>
+			<bullet speed="9000" lifetime="2.347" amount="1" barrelamount="1" icon="weapon_laser_mk1" angle="0.1" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="0"/>
 			<reload rate="0.9"/>
-			<damage value="677.34" shield="-159.38" repair="0"/>
+			<damage value="398.44" repair="0"/>
 			<effects>
 				<impact ref="impact_par_s_railgun_01_mk1" inside="impact_par_s_railgun_01_mk1_inside"/>
 				<bigobjectimpact ref="impact_par_s_railgun_01_mk1_bigobject" inside="impact_par_s_railgun_01_mk1_bigobject_inside"/>

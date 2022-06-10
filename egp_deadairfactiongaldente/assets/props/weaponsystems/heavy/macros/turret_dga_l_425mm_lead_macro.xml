@@ -3,10 +3,10 @@
 	<macro name="turret_dga_l_425mm_lead_macro" class="turret">
 		<component ref="turret_dga_l_425mm"/>
 		<properties>
-			<identification name="{4816303,202}" basename="{4816303,290}" shortname="{4816303,203}" description="{4816303,301}" />
+			<identification name="{4816303,202}" basename="{4816303,290}" shortname="{4816303,265}" description="{4816303,301}" />
 			<bullet class="bullet_dga_turret_l_425mm_lead_macro"/>
 			<rotationspeed max="5"/>
-			<rotationacceleration max="5"/>
+			<rotationacceleration max="10"/>
 			<reload/>
 			<hull max="30000" threshold="0.2"/>
 		</properties>

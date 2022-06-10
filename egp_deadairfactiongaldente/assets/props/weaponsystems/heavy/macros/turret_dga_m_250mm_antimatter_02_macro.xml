@@ -3,7 +3,7 @@
 	<macro name="turret_dga_m_250mm_antimatter_02_macro" class="turret">
 		<component ref="turret_dga_m_250mm_02"/>
 		<properties>
-			<identification name="{4816303,206}" basename="{4816303,291}" shortname="{4816303,201}" description="{4816303,300}" />
+			<identification name="{4816303,206}" basename="{4816303,291}" shortname="{4816303,270}" description="{4816303,300}" />
 			<bullet class="bullet_dga_turret_m_250mm_antimatter_macro"/>
 			<rotationspeed max="16.7"/>
 			<rotationacceleration max="33.4"/>
