@@ -5,7 +5,7 @@
 		<properties>
 			<identification name="{4816303,206}" basename="{4816303,291}" shortname="{4816303,270}" description="{4816303,300}"/>
 			<bullet class="bullet_weapon_dga_m_antimatter_macro"/>
-			<heat overheat="10000" cooldelay="1.13" coolrate="2000" reenable="7500"/>
+			<heat overheat="10000" cooldelay="1.0" coolrate="2000" reenable="7500"/>
 			<rotationspeed max="15"/>
 			<rotationacceleration max="30"/>
 			<reload/>

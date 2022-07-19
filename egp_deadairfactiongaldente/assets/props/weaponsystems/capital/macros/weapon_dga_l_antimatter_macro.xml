@@ -3,9 +3,9 @@
 	<macro name="weapon_dga_l_antimatter_macro" class="weapon">
 		<component ref="weapon_dga_l"/>
 		<properties>
-			<identification name="{4816303,200}" basename="{4816303,290}" shortname="{4816303,264}" description="{4816303,300}" />
+			<identification name="{4816303,200}" basename="{4816303,290}" shortname="{4816303,264}" description="{4816303,300}"/>
 			<bullet class="bullet_weapon_dga_l_antimatter_macro"/>
-			<heat overheat="10000" cooldelay="1.13" coolrate="600" reenable="0"/>
+			<heat overheat="10000" cooldelay="1.0" coolrate="2000" reenable="7500"/>
 			<rotationspeed max="3"/>
 			<rotationacceleration max="6"/>
 			<reload/>

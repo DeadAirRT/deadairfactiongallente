@@ -172,7 +172,7 @@
 		<module id="prod_dga_weaponcomponents" group="prod_gen_weaponcomponents">
 			<category ware="weaponcomponents" tags="[production, module]" faction="[galdente]"/>
 			<compatibilities>
-				<limits production="10"/>
+				<limits production="14"/>
 				<production ware="weaponcomponents" chance="100"/>
 			</compatibilities>
 		</module>
