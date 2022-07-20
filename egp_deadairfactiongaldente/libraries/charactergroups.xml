@@ -4,16 +4,10 @@
 	<character name="galdente.factionrepresentative">
 		<select macro="character_pioneer_male_afr_manager_01_macro"/>
 		<select macro="character_pioneer_male_asi_manager_01_macro"/>
-		<select macro="character_pioneers_female_afr_manager_01_macro"/>
-		<select macro="character_pioneers_female_asi_manager_01_macro"/>
 		<select macro="character_terran_male_afr_manager_01_macro"/>
 		<select macro="character_terran_male_asi_manager_01_macro"/>
-		<select macro="character_terran_female_afr_manager_01_macro"/>
-		<select macro="character_terran_female_asi_manager_01_macro"/>
 		<select macro="character_argon_male_afr_crew_02_macro"/>
 		<select macro="character_argon_male_asi_crew_02_macro"/>
-		<select macro="character_argon_female_afr_crew_02_macro"/>
-		<select macro="character_argon_female_asi_crew_02_macro"/>
 	</character>
 </add>
 </diff>

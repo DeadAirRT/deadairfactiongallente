@@ -246,7 +246,7 @@
       <skill type="engineering" exact="15"/>
       <skill type="piloting" exact="15"/>
     </skills>
-    <page exact="10106"/>
+    <page exact="10101"/>
     <owner exact="galdente"/>
   </character>
   <!-- Casually clothed platform NPCs -->
