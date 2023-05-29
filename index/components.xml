@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<add sel="//index">
+		<entry name="Cluster_DGA1" value="extensions\deadairfactiongallente\assets\environments\cluster\cluster_dga1"/>
+		<entry name="Cluster_DGA2" value="extensions\deadairfactiongallente\assets\environments\cluster\cluster_dga2"/>
+		<entry name="Cluster_DGA3" value="extensions\deadairfactiongallente\assets\environments\cluster\cluster_dga3"/>
+		<entry name="Cluster_DGA4" value="extensions\deadairfactiongallente\assets\environments\cluster\cluster_dga4"/>
+		<entry name="Cluster_DGA5" value="extensions\deadairfactiongallente\assets\environments\cluster\cluster_dga5"/>
+		<entry name="Cluster_DGA6" value="extensions\deadairfactiongallente\assets\environments\cluster\cluster_dga6"/>
+		<entry name="Cluster_DGA7" value="extensions\deadairfactiongallente\assets\environments\cluster\cluster_dga7"/>
+		<entry name="Cluster_DGA8" value="extensions\deadairfactiongallente\assets\environments\cluster\cluster_dga8"/>
+		<!-- Turrets -->
+		<entry name="turret_dga_l_425mm" value="extensions\deadairfactiongallente\assets\props\weaponsystems\heavy\turret_dga_l_425mm"/>
+		<entry name="turret_dga_m_250mm_01" value="extensions\deadairfactiongallente\assets\props\weaponsystems\heavy\turret_dga_m_250mm_01"/>
+		<entry name="turret_dga_m_250mm_02" value="extensions\deadairfactiongallente\assets\props\weaponsystems\heavy\turret_dga_m_250mm_02"/>
+		<entry name="weapon_dga_l" value="extensions\deadairfactiongallente\assets\props\weaponsystems\capital\weapon_dga_l"/>
+		<entry name="weapon_dga_xl" value="extensions\deadairfactiongallente\assets\props\weaponsystems\capital\weapon_dga_xl"/>
+		<entry name="weapon_dga_m" value="extensions\deadairfactiongallente\assets\props\weaponsystems\heavy\weapon_dga_m"/>
+		<entry name="weapon_dga_s" value="extensions\deadairfactiongallente\assets\props\weaponsystems\heavy\weapon_dga_s"/>
+		<entry name="turret_dga_l_neutron" value="extensions\deadairfactiongallente\assets\props\weaponsystems\heavy\turret_dga_l_neutron"/>
+		<entry name="turret_dga_m_neutron_01" value="extensions\deadairfactiongallente\assets\props\weaponsystems\heavy\turret_dga_m_neutron_01"/>
+		<entry name="turret_dga_m_neutron_02" value="extensions\deadairfactiongallente\assets\props\weaponsystems\heavy\turret_dga_m_neutron_02"/>
+		<!-- T3BC -->
+		<entry name="turret_dga_t3bc_425mm" value="extensions\deadairfactiongallente\assets\props\weaponsystems\heavy\turret_dga_t3bc_425mm"/>
+		<entry name="engine_dga_t3bc" value="extensions\deadairfactiongallente\assets\props\engines\engine_dga_t3bc"/>
+		<entry name="turret_dga_t3bc_neutron" value="extensions\deadairfactiongallente\assets\props\weaponsystems\heavy\turret_dga_t3bc_neutron"/>
+		<!-- Bullets -->
+		<entry name="bullet_dga_turret_l_425mm" value="extensions\deadairfactiongallente\assets\fx\weaponfx\bullet_dga_turret_l_425mm"/>
+		<entry name="bullet_dga_turret_m_250mm" value="extensions\deadairfactiongallente\assets\fx\weaponfx\bullet_dga_turret_m_250mm"/>
+		<entry name="bullet_weapon_dga_l" value="extensions\deadairfactiongallente\assets\fx\weaponfx\bullet_weapon_dga_l"/>
+		<entry name="bullet_weapon_dga_m" value="extensions\deadairfactiongallente\assets\fx\weaponfx\bullet_weapon_dga_m"/>
+		<entry name="bullet_weapon_dga_s" value="extensions\deadairfactiongallente\assets\fx\weaponfx\bullet_weapon_dga_s"/>
+		<entry name="bullet_turret_dga_l_neutron" value="extensions\deadairfactiongallente\assets\fx\weaponfx\bullet_turret_dga_l_neutron"/>
+		<entry name="bullet_turret_dga_m_neutron" value="extensions\deadairfactiongallente\assets\fx\weaponfx\bullet_turret_dga_m_neutron"/>
+		<!-- Ships / Ishield -->
+		<entry name="ship_dga_l_obelisk" value="extensions\deadairfactiongallente\assets\units\size_l\ship_dga_l_obelisk"/>
+		<entry name="ship_dga_l_brutix" value="extensions\deadairfactiongallente\assets\units\size_l\ship_dga_l_brutix"/>
+		<entry name="ship_dga_l_proteus" value="extensions\deadairfactiongallente\assets\units\size_l\ship_dga_l_proteus"/>
+		<entry name="ship_dga_l_hyperion" value="extensions\deadairfactiongallente\assets\units\size_l\ship_dga_l_hyperion"/>
+		<entry name="ship_dga_l_thorax" value="extensions\deadairfactiongallente\assets\units\size_l\ship_dga_l_thorax"/>
+		<entry name="ship_dga_l_megathron" value="extensions\deadairfactiongallente\assets\units\size_l\ship_dga_l_megathron"/>
+		<entry name="ship_dga_l_talos" value="extensions\deadairfactiongallente\assets\units\size_l\ship_dga_l_talos"/>
+		<entry name="ship_dga_xl_thanatos" value="extensions\deadairfactiongallente\assets\units\size_xl\ship_dga_xl_thanatos"/>
+		<entry name="ship_dga_xl_erebus" value="extensions\deadairfactiongallente\assets\units\size_xl\ship_dga_xl_erebus"/>
+		<entry name="ishield_dga_l_obelisk" value="extensions\deadairfactiongallente\assets\props\surfaceelements\ishield_dga_l_obelisk"/>
+		<entry name="ishield_dga_l_brutix" value="extensions\deadairfactiongallente\assets\props\surfaceelements\ishield_dga_l_brutix"/>
+		<entry name="ishield_dga_l_proteus" value="extensions\deadairfactiongallente\assets\props\surfaceelements\ishield_dga_l_proteus"/>
+		<entry name="ishield_dga_l_hyperion" value="extensions\deadairfactiongallente\assets\props\surfaceelements\ishield_dga_l_hyperion"/>
+		<entry name="ishield_dga_l_thorax" value="extensions\deadairfactiongallente\assets\props\surfaceelements\ishield_dga_l_thorax"/>
+		<entry name="ishield_dga_l_megathron" value="extensions\deadairfactiongallente\assets\props\surfaceelements\ishield_dga_l_megathron"/>
+		<entry name="ishield_dga_l_talos" value="extensions\deadairfactiongallente\assets\props\surfaceelements\ishield_dga_l_talos"/>
+		<entry name="ishield_dga_xl_thanatos" value="extensions\deadairfactiongallente\assets\props\surfaceelements\ishield_dga_xl_thanatos"/>
+		<entry name="ishield_dga_xl_erebus" value="extensions\deadairfactiongallente\assets\props\surfaceelements\ishield_dga_xl_erebus"/>
+	</add>
+</diff>

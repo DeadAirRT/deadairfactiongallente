@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="engine_dga_m_macro" class="engine">
+		<component ref="engine_par_m_allround_01_mk3"/>
+		<properties>
+			<identification name="{4816303,601}" basename="{20107,1001}" shortname="{4816303,604}" description="{20107,2082}"/>
+			<boost duration="20" thrust="4" attack="2.25" release="1.5"/>
+			<travel charge="1.5" thrust="12.7" attack="25" release="20"/>
+			<thrust forward="1589" reverse="1588"/>
+			<angular/>
+			<hull integrated="1"/>
+			<effects>
+				<boosting ref="arg_boost_fx_m"/>
+			</effects>
+			<sounds>
+				<enginedetail ref="enginedetail_ship_m_02"/>
+			</sounds>
+		</properties>
+	</macro>
+</macros>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+	<page id="4816303" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="yes">
+		<!-- 3323247 == deadair -->
+		<!--48163x69 == 3323247 since there is a character limit -->
+		<!--48163##-->
+		<t id="100">Gallente Federation</t>
+		<t id="101">The Federation is democratic and very liberal in a world full of dictators and oligarchies. The Caldari State was once part of the Federation, but a severe dispute resulted in their departure and a long war between the Gallente Federation and the Caldari State. The Gallenteans are the masters of pleasure and entertainment and their rich trade empire has given the world many of its most glorious and extravagant sights.</t>
+		<t id="102">GAL</t>
+		<t id="103">Gallente Capital Equipment Licence</t>
+		<t id="104">Gallente Capital Ship Licence</t>
+		<t id="105">Patrician of the Gallente</t>
+		<t id="106">Peregrini of the Gallente</t>
+		<t id="107">Gallente General Use Equipment Licence</t>
+		<t id="108">Gallente General Use Ship Licence</t>
+		<t id="109">Gallente Military Equipment Licence</t>
+		<t id="110">Gallente Military Ship Licence</t>
+		<t id="111">Gallente Police Licence</t>
+		<t id="112">Gallente Capital Ship Building Module Licence</t>
+		<t id="113">Gallente Ancillary Ship Building Module Licence</t>
+		<t id="114">Gallente Advanced Module Licence</t>
+		<t id="115">Gallente Basic Module Licence</t>
+		<t id="116">Gallente Intermediate Module Licence</t>
+		<t id="117">Gallente Trade Offer Subscription</t>
+		<t id="118">Federation</t>
+		<t id="119">Gallente Ship Sale Contract</t>
+		<t id="120">Mies</t>
+		<t id="121">Oursulaert</t>
+		<t id="122">Duripant</t>
+		<t id="123">Luminaire</t>
+		<t id="124">Algogille</t>
+		<t id="125">Synchelle</t>
+		<t id="126">Couster</t>
+		<t id="127">xxx</t>
+		<t id="128">xxx</t>
+		<t id="129">xxx</t>
+		<t id="130">Seyllin</t>
+		<t id="131">xxx</t>
+		<t id="132">xxx</t>
+		<t id="199">Gallente</t>
+		<!-- Equipment -->
+		<t id="200">{4816303,102}(GAL) {20111,5031}(L) Antimatter 425MM Railgun</t>
+		<t id="202">{4816303,102}(GAL) {20111,5031}(L) Lead 425MM Railgun</t>
+		<t id="204">{4816303,102}(GAL) {20111,5031}(L) Iron 425MM Railgun</t>
+		<t id="206">{4816303,102}(GAL) {20111,5021}(M) Antimatter 250MM Railgun</t>
+		<t id="207">{4816303,102}(GAL) {20111,5021}(M) Lead 250MM Railgun</t>
+		<t id="208">{4816303,102}(GAL) {20111,5021}(M) Iron 250MM Railgun</t>
+		<t id="209">{4816303,102}(GAL) {20111,5011}(S) Antimatter 150MM Railgun</t>
+		<t id="210">{4816303,102}(GAL) {20111,5011}(S) Lead 150MM Railgun</t>
+		<t id="211">{4816303,102}(GAL) {20111,5011}(S) Iron 150MM Railgun</t>
+		<t id="212">{4816303,102}(GAL) {20111,3001}(XL) Aurora Ominae Thermal Doomsday</t>
+		<t id="213">{4816303,102}(GAL) {20111,5031}(L) Antimatter Neutron Blaster Cannon</t>
+		<t id="214">{4816303,102}(GAL) {20111,5031}(L) Lead Neutron Blaster Cannon</t>
+		<t id="215">{4816303,102}(GAL) {20111,5031}(L) Iron Neutron Blaster Cannon</t>
+		<t id="216">{4816303,102}(GAL) {20111,5021}(M) Antimatter Heavy Neutron Blaster</t>
+		<t id="217">{4816303,102}(GAL) {20111,5021}(M) Lead Heavy Neutron Blaster</t>
+		<t id="218">{4816303,102}(GAL) {20111,5021}(M) Iron Heavy Neutron Blaster</t>
+		<t id="264">{20111,5031}(L) Antimatter Railgun</t>
+		<t id="265">{20111,5031}(L) Lead Railgun</t>
+		<t id="266">{20111,5031}(L) Iron Railgun</t>
+		<t id="267">{20111,5031}(L) Antimatter Blaster</t>
+		<t id="268">{20111,5031}(L) Lead Blaster</t>
+		<t id="269">{20111,5031}(L) Iron Blaster</t>
+		<t id="270">{20111,5021}(M) Antimatter Railgun</t>
+		<t id="271">{20111,5021}(M) Lead Railgun</t>
+		<t id="272">{20111,5021}(M) Iron Railgun</t>
+		<t id="273">{20111,5021}(M) Antimatter Blaster</t>
+		<t id="274">{20111,5021}(M) Lead Blaster</t>
+		<t id="275">{20111,5021}(M) Iron Blaster</t>
+		<t id="276">{20111,5011}(S) Antimatter Railgun</t>
+		<t id="277">{20111,5011}(S) Lead Railgun</t>
+		<t id="278">{20111,5011}(S) Iron Railgun</t>
+		<t id="279">{20111,3001}(XL) Doomsday</t>
+		<t id="280">{4816303,102}(GAL) {20111,5031}(L){20111,5021}(M) {20107,9001}(Engine)</t>
+		<t id="288">Neutron Blaster Cannon</t>
+		<t id="289">Heavy Neutron Blaster</t>
+		<t id="290">425MM Railgun</t>
+		<t id="291">250MM Railgun</t>
+		<t id="292">250MM Railgun</t>
+		<!-- Weapon Description -->
+		<t id="300">Consists of two components: a shell of titanium and a core of antimatter atoms suspended in plasma state. Railguns launch the shell directly, while particle blasters pump the plasma into a cyclotron and process the plasma into a bolt that is then fired.</t>
+		<t id="301">Consists of two components: a shell of titanium and a core of lead atoms suspended in a plasma state. Railguns launch the shell directly, while particle blasters pump the plasma into a cyclotron and process the plasma into a bolt that is then fired.</t>
+		<t id="302">Consists of two components: a shell of titanium and a core of iron atoms suspended in a plasma state. Railguns launch the shell directly, while particle blasters pump the plasma into a cyclotron and process the plasma into a bolt that is then fired.</t>
+		<t id="303">Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target.</t>
+		<!-- Engines -->
+		<t id="600">{4816303,102}(GAL) {20111,5031}(L) {20107,9001}(Engine)</t>
+		<t id="601">{4816303,102}(GAL) {20111,5021}(M) {20107,9001}(Engine)</t>
+		<t id="602">{4816303,102}(GAL) {20111,5011}(S) {20107,9001}(Engine)</t>
+		<t id="603">{4816303,102}(GAL) {20111,5041}(XL) {20107,9001}(Engine)</t>
+		<t id="604">{4816303,102}(GAL) {20107,9001}(Engine)</t>
+		<!-- Ships -->
+		<t id="700">Brutix</t>
+		<t id="701">Hyperion</t>
+		<t id="702">Megathron</t>
+		<t id="703">Obelisk</t>
+		<t id="704">Proteus</t>
+		<t id="705">Talos</t>
+		<t id="706">Thorax</t>
+		<t id="707">Thanatos</t>
+		<t id="708">Erebus</t>
+		<!-- Ship Desc -->
+		<t id="800">One of the most ferocious war vessels to ever spring from Gallente starship design, the Brutix is a behemoth in every sense of the word. When this hard-hitting monster appears, the battlefield takes notice.</t>
+		<t id="801">Recognizing the necessity for a blaster platform to round out their high-end arsenal, the Federation Navy brought in top-level talent to work on the Hyperion. The result: one of the most lethal and versatile gunboats ever to take to the dark skies.</t>
+		<t id="802">The Megathron has established itself as one of the most feared and respected battleships around. Since its first appearance almost two decades ago it has seen considerable service in the troublesome regions on the outskirts of the Federation, helping to expand and defend Gallentean influence there.</t>
+		<t id="803">The Obelisk was designed by the Federation in response to the Caldari State's Charon freighter. Possessing similar characteristics but placing a greater emphasis on resilience, this massive juggernaut represents the latest, and arguably finest, step in Gallente transport technology.</t>
+		<t id="804">Freedom is liquid, supple, mellifluous. It surrounds us, engulfs our bodies, drowns our fear. We plumb freedom's depths and consume the nourishment within. From these waters, we are born; when we die, we shall return to those waters.\n\Out there, among the stars, are the waters, freedom incarnate. That dark, endless void is our destiny, our path, our goal. We must not fear it, nor should we control it. Rather, we should embrace it, trust it, love it. Its ever-changing face, its protean existence, is our very essence. We are those stars, the void, the awesome waters of space: ancient, forever, free.\n\- Jinsente Parmen, The Gallente in New Eden</t>
+		<t id="805">The Talos began in YC 110 as an R&amp;D concept by ORE. Conceived as a patrol craft for mining operations in lawless space, the Talos would have been abandoned completely were it not adopted by the Black Eagles, a black-ops branch of the Gallente government. The Black Eagles stripped the Talos of non-essential systems and bolted on battleship-class weapons, creating a quick-strike craft ideal for guerilla action.\n\The Talos remained a military secret until YC 113, when it was introduced into wider circulation as a third tier battlecruiser. Today the Talos is manufactured by Duvolle Labs, who modified the original ORE designs to bring it in line with Gallente standards.</t>
+		<t id="806">The Thorax-class cruiser is the latest combat ship commissioned by the Federation. While the Thorax is a very effective ship at any range, typical of modern Gallente design philosophy it is most effective when working at extreme close range where its blasters and hordes of combat drones tear through even the toughest of enemies.</t>
+		<t id="807">Sensing the need for a more moderately-priced version of the Nyx, Federation Navy authorities commissioned the design of the Thanatos. Designed to act primarily as a fighter carrier for small- to mid-scale engagements, its significant defensive capabilities and specially-fitted fighter bays make it ideal for its intended purpose.</t>
+		<t id="808">From the formless void's gaping maw, there springs an entity. Not an entity such as any you can conceive of, nor I; an entity more primordial than the elements themselves, yet constantly coming into existence even as it is destroyed. It is the Child of Chaos, the Pathway to the Next.\n\The darkness shall swallow the land, and in its wake there will follow a storm, as the appetite of nothing expands over the world.\n\From the formless void's gaping maw, there springs an entity.\n\Dr. Damella Macaper\n\The Seven Events of the Apocalypse</t>
+		<!-- IG -->
+		<t id="900">IG L - Brutix Internal Generator</t>
+		<t id="901">IG L - Hyperion Internal Generator</t>
+		<t id="902">IG L - Megathron Internal Generator</t>
+		<t id="903">IG L - Obelisk Internal Generator</t>
+		<t id="904">IG L - Proteus Internal Generator</t>
+		<t id="905">IG L - Talos Internal Generator</t>
+		<t id="906">IG L - Thorax Internal Generator</t>
+		<t id="907">IG XL - Thanatos Internal Generator</t>
+		<t id="908">IG XL - Erebus Internal Generator</t>
+		<!-- Stations -->
+		<t id="1101">Gallente Defence Platform</t>
+		<t id="1111">Gallente Trading Station</t>
+		<t id="1121">Gallente Equipment Dock</t>
+		<t id="1131">Gallente Shipyard</t>
+		<t id="1141">Gallente Wharf</t>
+		<!-- BosoTaDA -->
+		<t id="9000">I have important news! It looks like the Gallente are trying to activate a gate. I have added new research.</t>
+		<t id="9001">Gallente Gate Activation</t>
+		<t id="9002">A by-product of Jove warp research, this will allow activation of particular inactive gates using a large amount of energy.</t>
+		<t id="9003">Incredible! The gates are coming online. I wonder if we can work with other factions to activate more.</t>
+		<t id="9004">I have important news! We can activate new gates into Gallente space. Let us show them the power of science! I have added new research.</t>
+	</page>
+</language>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dga_xl_erebus_macro" class="shieldgenerator">
+		<component ref="ishield_dga_xl_erebus"/>
+		<properties>
+			<identification name="{4816303,908}"/>
+			<recharge max="412122" rate="1230" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

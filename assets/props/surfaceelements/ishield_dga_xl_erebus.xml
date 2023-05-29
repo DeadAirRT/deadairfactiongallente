@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components>
+	<component name="ishield_dga_xl_erebus" class="shieldgenerator">
+		<connections>
+			<connection name="ParentConnection" tags="ishield_dga_xl_erebus component ishield shield unhittable" optional="0"/>
+		</connections>
+		<properties>
+			<recharge/>
+		</properties>
+	</component>
+</components>

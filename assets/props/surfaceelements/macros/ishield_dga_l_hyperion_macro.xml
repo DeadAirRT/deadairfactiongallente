@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dga_l_hyperion_macro" class="shieldgenerator">
+		<component ref="ishield_dga_l_hyperion"/>
+		<properties>
+			<identification name="{4816303,901}"/>
+			<recharge max="93577" rate="694" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

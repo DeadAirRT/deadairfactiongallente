@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dga_l_brutix_macro" class="shieldgenerator">
+		<component ref="ishield_dga_l_brutix"/>
+		<properties>
+			<identification name="{4816303,900}"/>
+			<recharge max="163227" rate="810" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

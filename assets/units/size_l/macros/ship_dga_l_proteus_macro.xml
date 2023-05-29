@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ship_dga_l_proteus_macro" class="ship_l">
+		<component ref="ship_dga_l_proteus"/>
+		<properties>
+			<identification name="{4816303,704}" basename="{4816303,704}" description="{4816303,804}" icon="ship_l_fight_01"/>
+			<software>
+				<software ware="software_dockmk2" compatible="1"/>
+				<software ware="software_flightassistmk1" default="1"/>
+				<software ware="software_scannerlongrangemk1" default="1"/>
+				<software ware="software_scannerlongrangemk2" compatible="1"/>
+				<software ware="software_scannerobjectmk1" default="1"/>
+				<software ware="software_scannerobjectmk2" compatible="1"/>
+				<software ware="software_targetmk1" default="1"/>
+				<software ware="software_trademk1" compatible="1"/>
+			</software>
+			<explosiondamage value="1000" shield="5000"/>
+			<storage missile="115" unit="10"/>
+			<hull max="270615"/>
+			<secrecy level="2"/>
+			<purpose primary="fight"/>
+			<people capacity="41"/>
+			<physics mass="278.05">
+				<inertia pitch="111.77" yaw="158.29" roll="113.13"/>
+				<drag forward="120.07" reverse="508.27" horizontal="132.26" vertical="132.26" pitch="111.77" yaw="158.29" roll="113.13"/>
+			</physics>
+			<thruster tags="large"/>
+			<ship type="destroyer"/>
+			<sound_occlusion inside="0.9"/>
+		</properties>
+		<connections>
+			<connection ref="con_cockpit">
+				<macro ref="bridge_arg_l_01_macro" connection="con_cockpit"/>
+			</connection>
+			<connection ref="con_storage01">
+				<macro ref="storage_dga_l_proteus_macro" connection="ShipConnection"/>
+			</connection>
+			<connection ref="con_dock_xs">
+				<macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component"/>
+			</connection>
+		</connections>
+	</macro>
+</macros>

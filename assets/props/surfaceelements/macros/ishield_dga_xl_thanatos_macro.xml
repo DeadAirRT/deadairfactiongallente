@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dga_xl_thanatos_macro" class="shieldgenerator">
+		<component ref="ishield_dga_xl_thanatos"/>
+		<properties>
+			<identification name="{4816303,907}"/>
+			<recharge max="87577" rate="1195" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

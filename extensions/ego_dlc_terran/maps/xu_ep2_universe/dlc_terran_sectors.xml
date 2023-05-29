@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="//macro[@name='Cluster_106_Sector001_macro']/connections">
+		<connection name="ZoneDGA5_Cluster_106_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-249615" y="0" z="-166410" />
+			</offset>
+			<macro ref="ZoneDGA5_Cluster_106_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	<add sel="//macro[@name='Cluster_116_Sector001_macro']/connections">
+		<connection name="ZoneDGA4_Cluster_116_Sector001_connection" ref="zones">
+			<offset>
+				<position x="0" y="0" z="-300000"/>
+			</offset>
+			<macro ref="ZoneDGA4_Cluster_116_Sector001_macro" connection="sector"/>
+		</connection>
+		<connection name="ZoneDGA6_Cluster_116_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-249615" y="0" z="166410" />
+			</offset>
+			<macro ref="ZoneDGA6_Cluster_116_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+</diff>

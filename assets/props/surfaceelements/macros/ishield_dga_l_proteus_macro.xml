@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dga_l_proteus_macro" class="shieldgenerator">
+		<component ref="ishield_dga_l_proteus"/>
+		<properties>
+			<identification name="{4816303,904}"/>
+			<recharge max="154636" rate="790" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>
