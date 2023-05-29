@@ -32,7 +32,7 @@
 - None
 
 ## Installation
-- folder must be named "deadairfactionamarr"
+- folder must be named "deadairfactiongallente"
 - folder must be in game/extensions folder, not documents
 
 ## Credit
