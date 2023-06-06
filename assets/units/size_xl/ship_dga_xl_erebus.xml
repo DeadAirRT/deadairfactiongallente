@@ -192,8 +192,8 @@
 			</connection>
 			<connection group="front-large" name="con_l_turret_front-large_2" tags="turret large hittable standard missile highpower combat">
 				<offset>
-					<position x="308.642" y="-585.1664999999999" z="1139.4453"/>
-					<quaternion qw="-0.7900995148491567" qx="0.612978591517574" qy="5.455509464506408e-05" qz="-0.0"/>
+					<position x="308.64189999999996" y="-585.1664999999999" z="1139.4453"/>
+					<quaternion qw="-0.6129784570959982" qx="-0.7900996191393336" qy="-0.0" qz="-5.451687372061401e-05"/>
 				</offset>
 			</connection>
 			<connection group="front-large" name="con_l_turret_front-large_3" tags="turret large hittable standard missile highpower combat">
@@ -204,8 +204,8 @@
 			</connection>
 			<connection group="front-large" name="con_l_turret_front-large_4" tags="turret large hittable standard missile highpower combat">
 				<offset>
-					<position x="165.39" y="-157.8065" z="1626.2730000000001"/>
-					<quaternion qw="-0.7071068967259818" qx="0.7071066645715851" qy="2.757715991829182e-05" qz="-2.757715991829182e-05"/>
+					<position x="165.3896" y="-157.8065" z="1626.2730000000001"/>
+					<quaternion qw="-0.7071065431725606" qx="-0.7071070181249446" qy="-2.757717370687284e-05" qz="-2.757717370687284e-05"/>
 				</offset>
 			</connection>
 			<connection group="front-large" name="con_l_turret_front-large_5" tags="turret large hittable standard missile highpower combat">
@@ -216,8 +216,8 @@
 			</connection>
 			<connection group="front-large" name="con_l_turret_front-large_6" tags="turret large hittable standard missile highpower combat">
 				<offset>
-					<position x="122.58800000000001" y="479.3376" z="1811.7615"/>
-					<quaternion qw="-0.18350009126439873" qx="0.7192950880892434" qy="-0.6497031998448467" qz="0.1637926886891241"/>
+					<position x="122.58819999999999" y="479.3376" z="1811.7615"/>
+					<quaternion qw="-0.7192955983799518" qx="-0.18349988618648366" qy="0.16379251485322543" qz="0.6497027366410199"/>
 				</offset>
 			</connection>
 			<connection group="left-front-medium" name="con_m_turret_left-front-medium_1" tags="turret medium hittable standard missile highpower combat">
@@ -360,8 +360,8 @@
 			</connection>
 			<connection group="front-large" name="con_shieldgen_l_front-large_2" tags="large shield hittable standard">
 				<offset>
-					<position x="163.4064" y="485.0183" z="1720.1025000000002"/>
-					<quaternion qw="-0.34459312247620466" qx="-0.43681270296606484" qy="0.5503378942250311" qz="-0.6225579849697042"/>
+					<position x="163.3576" y="485.2116" z="1720.1393"/>
+					<quaternion qw="-0.4368121787062061" qx="0.344593431946247" qy="0.6225578988132751" qz="0.5503382140271968"/>
 				</offset>
 			</connection>
 			<connection group="left-front-medium" name="con_shieldgen_m_left-front-medium_1" tags="medium shield hittable standard">

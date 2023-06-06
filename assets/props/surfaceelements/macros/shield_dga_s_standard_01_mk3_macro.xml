@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="shield_dga_s_standard_01_mk3_macro" class="shieldgenerator">
+		<component ref="shield_arg_s_standard_01_mk3"/>
+		<properties>
+			<identification name="{4816303,506}" basename="{20106,1081}" shortname="{20106,1085}" description="{20106,1082}" mk="3"/>
+			<recharge max="3425" rate="11" delay="0"/>
+			<hull max="3125" integrated="1"/>
+		</properties>
+	</macro>
+</macros>

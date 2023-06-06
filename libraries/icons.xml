@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE icons SYSTEM "icons.dtd" >
 <icons>
 	<icon name="faction_galdente" texture="extensions\deadairfactiongallente\assets\fx\gui\textures\factions\faction_galdente.tga" height="256" width="256"/>
 	<icon name="upgrade_*" texture="extensions\deadairfactiongallente\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"/>
 	<icon name="ship_dga_*" texture="extensions\deadairfactiongallente\assets\fx\gui\textures\ships\*.tga" height="256" width="256"/>
+	<icon name="paintmod_galdente" texture="extensions\deadairfactiongallente\assets\fx\gui\textures\paintmods\paintmod_galdente" height="256" width="256"/>
 	<icon name="upgrade_ishield_dga_l_brutix_macro" texture="extensions\deadairfactiongallente\assets\fx\gui\textures\upgrades\ishield_dga_macro" height="256" width="256"/>
 	<icon name="upgrade_ishield_dga_l_hyperion_macro" texture="extensions\deadairfactiongallente\assets\fx\gui\textures\upgrades\ishield_dga_macro" height="256" width="256"/>
 	<icon name="upgrade_ishield_dga_l_megathron_macro" texture="extensions\deadairfactiongallente\assets\fx\gui\textures\upgrades\ishield_dga_macro" height="256" width="256"/>

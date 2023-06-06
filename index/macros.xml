@@ -101,5 +101,16 @@
 		<entry name="engine_dga_m_macro" value="extensions\deadairfactiongallente\assets\props\engines\macros\engine_dga_m_macro"/>
 		<entry name="engine_dga_s_macro" value="extensions\deadairfactiongallente\assets\props\engines\macros\engine_dga_s_macro"/>
 		<entry name="engine_dga_xl_macro" value="extensions\deadairfactiongallente\assets\props\engines\macros\engine_dga_xl_macro"/>
+		<!-- Shields -->
+		<entry name="shield_dga_s_standard_01_mk1_macro" value="extensions\deadairfactiongallente\assets\props\surfaceelements\macros\shield_dga_s_standard_01_mk1_macro"/>
+		<entry name="shield_dga_s_standard_01_mk2_macro" value="extensions\deadairfactiongallente\assets\props\surfaceelements\macros\shield_dga_s_standard_01_mk2_macro"/>
+		<entry name="shield_dga_s_standard_01_mk3_macro" value="extensions\deadairfactiongallente\assets\props\surfaceelements\macros\shield_dga_s_standard_01_mk3_macro"/>
+		<entry name="shield_dga_m_standard_01_mk1_macro" value="extensions\deadairfactiongallente\assets\props\surfaceelements\macros\shield_dga_m_standard_01_mk1_macro"/>
+		<entry name="shield_dga_m_standard_01_mk2_macro" value="extensions\deadairfactiongallente\assets\props\surfaceelements\macros\shield_dga_m_standard_01_mk2_macro"/>
+		<entry name="shield_dga_m_standard_02_mk1_macro" value="extensions\deadairfactiongallente\assets\props\surfaceelements\macros\shield_dga_m_standard_02_mk1_macro"/>
+		<entry name="shield_dga_m_standard_02_mk2_macro" value="extensions\deadairfactiongallente\assets\props\surfaceelements\macros\shield_dga_m_standard_02_mk2_macro"/>
+		<entry name="shield_dga_l_standard_01_mk1_macro" value="extensions\deadairfactiongallente\assets\props\surfaceelements\macros\shield_dga_l_standard_01_mk1_macro"/>
+		<entry name="shield_dga_l_standard_01_mk2_macro" value="extensions\deadairfactiongallente\assets\props\surfaceelements\macros\shield_dga_l_standard_01_mk2_macro"/>
+		<entry name="shield_dga_xl_standard_01_mk1_macro" value="extensions\deadairfactiongallente\assets\props\surfaceelements\macros\shield_dga_xl_standard_01_mk1_macro"/>
 	</add>
 </diff>
