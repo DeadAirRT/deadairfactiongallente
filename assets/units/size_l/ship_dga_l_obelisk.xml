@@ -184,7 +184,7 @@
 					<quaternion qw="-0.09512876169048609" qx="-0.0" qy="0.0" qz="-0.9954649761288614"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_l_2" tags="large shield hittable">
+			<connection name="con_shieldgen_l_2" tags="large shield hittable standard">
 				<offset>
 					<position x="99.7577" y="-391.0023" z="133.9799"/>
 					<quaternion qw="-0.09512477982982044" qx="0.0" qy="-0.0" qz="0.9954653566359445"/>
