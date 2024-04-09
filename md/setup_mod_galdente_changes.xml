@@ -67,5 +67,41 @@
 				<add_paint_mod object="event.param" ware="$GaldentePaint"/>
 			</actions>
 		</cue>
+		<cue name="DeadAirScriptsIntegration" instantiate="true">
+			<conditions>
+				<check_any>
+					<event_universe_generated/>
+					<event_cue_signalled cue="md.Setup.Start"/>
+				</check_any>
+			</conditions>
+			<actions>
+				<do_if value="md.$DADynamicVarTable.$DAGateEnable?">
+					<signal_cue_instantly cue="IntegrateDeadAirGate"/>
+				</do_if>
+				<do_else>
+					<debug_text text="'MOD: DA Galdente -- %s -- VAR MISSING -- md.$DADynamicVarTable.$DAGateEnable?: %s'.[player.age,md.$DADynamicVarTable.$DAGateEnable?]" context="false" filter="error"/>
+				</do_else>
+			</actions>
+		</cue>
+		<cue name="IntegrateDeadAirGate" instantiate="true">
+			<conditions>
+				<event_cue_signalled/>
+			</conditions>
+			<actions>
+				<do_if value="md.$DADynamicVarTable.$DAGateZoneMacros?">
+					<set_value name="$LocMacroList" exact="[macro.ZoneDGA1_Cluster_DGA3_Sector001_macro,macro.ZoneDGA4_Cluster_20_Sector001_macro,macro.ZoneDGA1_Cluster_DGA8_Sector001_macro,macro.ZoneDGA4_Cluster_05_Sector001_macro]"/>
+					<do_if value="faction.terran?">
+						<append_list_elements name="$LocMacroList" other="[macro.ZoneDGA4_Cluster_DGA7_Sector001_macro,macro.ZoneDGA4_Cluster_116_Sector001_macro,macro.ZoneDGA6_Cluster_116_Sector001_macro,macro.ZoneDGA5_Cluster_106_Sector001_macro]"/>
+					</do_if>
+					<do_for_each name="$LocMacro" in="$LocMacroList">
+						<do_if value="not md.$DADynamicVarTable.$DAGateZoneMacros.indexof.{$LocMacro}">
+							<append_to_list name="md.$DADynamicVarTable.$DAGateZoneMacros" exact="$LocMacro"/>
+						</do_if>
+					</do_for_each>
+					<signal_cue_instantly cue="md.DeadAirDynamicUniverse.EventGateFindOtherModGates" param="$LocMacroList"/>
+					<remove_value name="$LocMacroList"/>
+				</do_if>
+			</actions>
+		</cue>
 	</cues>
 </mdscript>

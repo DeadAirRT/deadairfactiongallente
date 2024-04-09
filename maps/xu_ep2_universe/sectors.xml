@@ -190,6 +190,18 @@
         </offset>
         <macro ref="ZoneDGAc_Cluster_DGA4_Sector001_macro" connection="sector" />
 	  </connection>
+	  <connection name="ZoneDGAcw_Cluster_DGA4_Sector001_connection" ref="zones">
+        <offset>
+          <position x="-125000" y="0" z="0" />
+        </offset>
+        <macro ref="ZoneDGAcw_Cluster_DGA4_Sector001_macro" connection="sector" />
+	  </connection>
+	  <connection name="ZoneDGAce_Cluster_DGA4_Sector001_connection" ref="zones">
+        <offset>
+          <position x="125000" y="0" z="0" />
+        </offset>
+        <macro ref="ZoneDGAce_Cluster_DGA4_Sector001_macro" connection="sector" />
+	  </connection>
     </connections>
   </macro>
   
@@ -407,6 +419,14 @@
           <position x="1520" y="0" z="300000" />
         </offset>
         <macro ref="ZoneDGA1_Cluster_11_Sector001_macro" connection="sector" />
+      </connection>
+</add>
+<add sel="//macro[@name='Cluster_20_Sector001_macro']/connections">
+      <connection name="ZoneDGA4_Cluster_20_Sector001_connection" ref="zones">
+        <offset>
+          <position x="-55227" y="0" z="-150000" />
+        </offset>
+        <macro ref="ZoneDGA4_Cluster_20_Sector001_macro" connection="sector" />
       </connection>
 </add>
 </diff>

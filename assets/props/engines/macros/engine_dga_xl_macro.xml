@@ -4,8 +4,8 @@
 		<component ref="engine_par_xl_allround_01_mk1"/>
 		<properties>
 			<identification name="{4816303,603}" basename="{20107,1001}" shortname="{4816303,604}" description="{20107,4002}"/>
-			<boost duration="35" thrust="2" attack="10" release="3"/>
-			<travel charge="15" thrust="27.6" attack="21" release="20"/>
+			<boost duration="35" thrust="2" attack="20" release="6"/>
+			<travel charge="15" thrust="27.6" attack="10.5" release="10"/>
 			<thrust forward="16108" reverse="16509"/>
 			<angular/>
 			<hull max="31990" threshold="0.3"/>

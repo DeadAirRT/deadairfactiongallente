@@ -128,6 +128,19 @@
 					<!-- 90 deg x -->
 				</offset>
 			</connection>
+			<!-- Launch lasertowers? -->
+			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+				<offset>
+					<position x="0" y="1" z="1"/>
+				</offset>
+			</connection>
+			<connection name="con_cargotube" tags="cargotube ">
+				<offset>
+					<position x="0" y="-396.62" z="44.549"/>
+					<quaternion qx="0.7071068" qy="0" qz="0" qw="0.7071068"/>
+					<!-- 90 deg x -->
+				</offset>
+			</connection>
 			<!-- VRO -->
 			<connection name="con_ishield_01" tags="ishield shield unhittable ishield_dga_l_obelisk">
 				<offset>
@@ -184,7 +197,7 @@
 					<quaternion qw="-0.09512876169048609" qx="-0.0" qy="0.0" qz="-0.9954649761288614"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_l_2" tags="large shield hittable">
+			<connection name="con_shieldgen_l_2" tags="large shield hittable standard">
 				<offset>
 					<position x="99.7577" y="-391.0023" z="133.9799"/>
 					<quaternion qw="-0.09512477982982044" qx="0.0" qy="-0.0" qz="0.9954653566359445"/>

@@ -20,9 +20,9 @@
 			<secrecy level="2"/>
 			<purpose primary="fight"/>
 			<people capacity="156"/>
-			<physics mass="1639.05">
-				<inertia pitch="1132.58" yaw="2005.51" roll="1146.47"/>
-				<drag forward="499.6" reverse="2057.07" horizontal="883.59" vertical="883.59" pitch="1132.58" yaw="2005.51" roll="1146.47"/>
+			<physics mass="1404.9">
+				<inertia pitch="755.05" yaw="1337.01" roll="764.32"/>
+				<drag forward="499.6" reverse="2057.07" horizontal="883.59" vertical="883.59" pitch="755.05" yaw="1176.57" roll="955.39"/>
 			</physics>
 			<thruster tags="extralarge"/>
 			<ship type="battleship"/>
@@ -37,6 +37,9 @@
 			</connection>
 			<connection ref="con_dock_xs">
 				<macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component"/>
+			</connection>
+			<connection ref="con_shipstorage_xs_01">
+				<macro ref="shipstorage_gen_xs_01_macro" connection="object"/>
 			</connection>
 		</connections>
 	</macro>
