@@ -4,9 +4,9 @@
 		<component ref="bullet_weapon_dga_l"/>
 		<properties>
 			<bullet speed="9000" lifetime="3.911" amount="1" barrelamount="1" icon="weapon_laser_mk1" timediff="0.001" angle="0.025" maxhits="1" ricochet="0" scale="0" attach="0"/>
-			<heat value="389"/>
+			<heat value="778"/>
 			<reload rate="0.18"/>
-			<damage value="4150.39" repair="0"/>
+			<damage value="4482.42" repair="0"/>
 			<effects>
 				<impact ref="impact_par_m_railgun_01_mk1" inside="impact_par_m_railgun_01_mk1_inside"/>
 				<bigobjectimpact ref="impact_par_m_railgun_01_mk1_bigobject" inside="impact_par_m_railgun_01_mk1_bigobject_inside"/>

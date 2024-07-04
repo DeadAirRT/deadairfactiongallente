@@ -8,6 +8,14 @@
 			<macro ref="ZoneDGA5_Cluster_106_Sector001_macro" connection="sector"/>
 		</connection>
 	</add>
+	<add sel="//macro[@name='Cluster_114_Sector001_macro']/connections">
+		<connection name="ZoneDGA1_Cluster_114_Sector001_connection" ref="zones">
+			<offset>
+				<position x="51600" y="0" z="160000" />
+			</offset>
+			<macro ref="ZoneDGA1_Cluster_114_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
 	<add sel="//macro[@name='Cluster_116_Sector001_macro']/connections">
 		<connection name="ZoneDGA4_Cluster_116_Sector001_connection" ref="zones">
 			<offset>

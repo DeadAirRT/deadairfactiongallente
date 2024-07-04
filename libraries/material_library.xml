@@ -1,53 +1,53 @@
 <?xml version="1.0"?>
 <diff>
-	<add sel="//materiallibrary">
+	<add sel="/materiallibrary">
 		<collection name="gallentesky">
-			<material name="mies" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+			<material name="mies" shader="XU_simple_hdr_out.fx" blendmode="NONE" preview="none">
 				<properties>
 					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactiongallente\assets\environments\cluster\evesky\mies"/>
-					<property type="Float" name="diffuseStr" value="0.9"/>
+					<property type="Float" name="diffuseStr" value="0.5"/>
 				</properties>
 			</material>
-			<material name="oursulaert" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+			<material name="oursulaert" shader="XU_simple_hdr_out.fx" blendmode="NONE" preview="none">
 				<properties>
 					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactiongallente\assets\environments\cluster\evesky\oursulaert"/>
-					<property type="Float" name="diffuseStr" value="0.9"/>
+					<property type="Float" name="diffuseStr" value="0.5"/>
 				</properties>
 			</material>
-			<material name="duripant" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+			<material name="duripant" shader="XU_simple_hdr_out.fx" blendmode="NONE" preview="none">
 				<properties>
 					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactiongallente\assets\environments\cluster\evesky\duripant"/>
-					<property type="Float" name="diffuseStr" value="0.9"/>
+					<property type="Float" name="diffuseStr" value="0.5"/>
 				</properties>
 			</material>
-			<material name="luminaire" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+			<material name="luminaire" shader="XU_simple_hdr_out.fx" blendmode="NONE" preview="none">
 				<properties>
 					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactiongallente\assets\environments\cluster\evesky\luminaire"/>
-					<property type="Float" name="diffuseStr" value="0.9"/>
+					<property type="Float" name="diffuseStr" value="0.5"/>
 				</properties>
 			</material>
-			<material name="algogille" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+			<material name="algogille" shader="XU_simple_hdr_out.fx" blendmode="NONE" preview="none">
 				<properties>
 					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactiongallente\assets\environments\cluster\evesky\algogille"/>
-					<property type="Float" name="diffuseStr" value="0.9"/>
+					<property type="Float" name="diffuseStr" value="0.5"/>
 				</properties>
 			</material>
-			<material name="synchelle" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+			<material name="synchelle" shader="XU_simple_hdr_out.fx" blendmode="NONE" preview="none">
 				<properties>
 					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactiongallente\assets\environments\cluster\evesky\synchelle"/>
-					<property type="Float" name="diffuseStr" value="0.9"/>
+					<property type="Float" name="diffuseStr" value="0.5"/>
 				</properties>
 			</material>
-			<material name="couster" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+			<material name="couster" shader="XU_simple_hdr_out.fx" blendmode="NONE" preview="none">
 				<properties>
 					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactiongallente\assets\environments\cluster\evesky\couster"/>
-					<property type="Float" name="diffuseStr" value="0.9"/>
+					<property type="Float" name="diffuseStr" value="0.5"/>
 				</properties>
 			</material>
-			<material name="seyllin" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+			<material name="seyllin" shader="XU_simple_hdr_out.fx" blendmode="NONE" preview="none">
 				<properties>
 					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactiongallente\assets\environments\cluster\evesky\seyllin"/>
-					<property type="Float" name="diffuseStr" value="0.9"/>
+					<property type="Float" name="diffuseStr" value="0.5"/>
 				</properties>
 			</material>
 		</collection>
@@ -61,15 +61,15 @@
 					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\obelisk\obelisk_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -92,15 +92,15 @@
 					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\brutix\brutix_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -116,22 +116,22 @@
 		<collection name="proteus">
 			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 				<properties>
-					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusA_smoothness"/>
-					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusA_metallic"/>
-					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusA_diffuse"/>
-					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusA_normal"/>
-					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusA_emissive"/>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusa_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusa_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusa_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusa_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusa_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -145,22 +145,22 @@
 			</material>
 			<material name="evematb" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 				<properties>
-					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusB_smoothness"/>
-					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusB_metallic"/>
-					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusB_diffuse"/>
-					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusB_normal"/>
-					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusB_emissive"/>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusb_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusb_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusb_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusb_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusb_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -174,22 +174,22 @@
 			</material>
 			<material name="evematc" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 				<properties>
-					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusC_smoothness"/>
-					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusC_metallic"/>
-					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusC_diffuse"/>
-					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusC_normal"/>
-					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusC_emissive"/>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusc_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusc_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusc_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusc_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusc_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -203,22 +203,22 @@
 			</material>
 			<material name="evematd" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 				<properties>
-					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusD_smoothness"/>
-					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusD_metallic"/>
-					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusD_diffuse"/>
-					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusD_normal"/>
-					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusD_emissive"/>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusd_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusd_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusd_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusd_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\proteus\proteusd_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -241,15 +241,15 @@
 					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\hyperion\hyperion_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -265,22 +265,22 @@
 		<collection name="thanatos">
 			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 				<properties>
-					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosA_smoothness"/>
-					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosA_metallic"/>
-					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosA_diffuse"/>
-					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosA_normal"/>
-					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosA_emissive"/>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosa_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosa_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosa_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosa_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosa_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -294,22 +294,22 @@
 			</material>
 			<material name="evematb" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 				<properties>
-					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosB_smoothness"/>
-					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosB_metallic"/>
-					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosB_diffuse"/>
-					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosB_normal"/>
-					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosB_emissive"/>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosb_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosb_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosb_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosb_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\thanatos\thanatosb_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -325,22 +325,22 @@
 		<collection name="erebus">
 			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 				<properties>
-					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusA_smoothness"/>
-					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusA_metallic"/>
-					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusA_diffuse"/>
-					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusA_normal"/>
-					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusA_emissive"/>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusa_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusa_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusa_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusa_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusa_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -354,22 +354,22 @@
 			</material>
 			<material name="evematb" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 				<properties>
-					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusB_smoothness"/>
-					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusB_metallic"/>
-					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusB_diffuse"/>
-					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusB_normal"/>
-					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusB_emissive"/>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusb_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusb_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusb_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusb_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\erebus\erebusb_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -392,15 +392,15 @@
 					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\thorax\thorax_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -423,15 +423,15 @@
 					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\megathron\megathron_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>
@@ -454,15 +454,15 @@
 					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactiongallente\assets\textures\talos\talos_emissive"/>
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
-					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_glowStr" value="0.1"/>
 					<property type="Float" name="color_dirtStr" value="1.0"/>
-					<property type="Float" name="environmentStr" value="0.5"/>
-					<property type="Float" name="Smoothness" value="1.0"/>
-					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.2"/>
+					<property type="Float" name="Smoothness" value="0.5"/>
+					<property type="Float" name="Metallness" value="0.5"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
-					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\gen_p2_detail_01_normal"/>
 					<property type="Float" name="normal_detail_tiling" value="10.0"/>
 					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
 					<property type="Float" name="normal_detailStr" value="0.05"/>

@@ -6,8 +6,7 @@
 			<select macro="ship_par_xl_builder_01_b_macro" weight="100"/>
 		</group>
 		<group name="dga_resupplier_xl">
-			<select macro="ship_par_xl_resupplier_01_a_macro" weight="100"/>
-			<select macro="ship_par_xl_resupplier_01_b_macro" weight="100"/>
+			<select macro="ship_par_xl_resupplier_02_a_macro" weight="100"/>
 		</group>
 		<group name="dga_trader_container_l">
 			<select macro="ship_dga_l_obelisk_macro" weight="100"/>
@@ -23,12 +22,10 @@
 			<select macro="ship_par_s_trans_container_01_b_macro" weight="100"/>
 		</group>
 		<group name="dga_miner_solid_l">
-			<select macro="ship_par_l_miner_solid_01_a_macro" weight="100"/>
-			<select macro="ship_par_l_miner_solid_01_b_macro" weight="100"/>
+			<select macro="ship_par_l_miner_solid_02_a_macro" weight="100"/>
 		</group>
 		<group name="dga_miner_liquid_l">
-			<select macro="ship_par_l_miner_liquid_01_a_macro" weight="100"/>
-			<select macro="ship_par_l_miner_liquid_01_b_macro" weight="100"/>
+			<select macro="ship_par_l_miner_liquid_02_a_macro" weight="100"/>
 		</group>
 		<group name="dga_miner_solid_m">
 			<select macro="ship_par_m_miner_solid_01_a_macro" weight="100"/>
@@ -43,15 +40,13 @@
 			<select macro="ship_par_s_miner_solid_01_a_macro" weight="100"/>
 		</group>
 		<group name="dga_miner_solid_mixed">
-			<select macro="ship_par_l_miner_solid_01_a_macro" weight="100"/>
+			<select macro="ship_par_l_miner_solid_02_a_macro" weight="100"/>
 			<select macro="ship_par_m_miner_solid_01_a_macro" weight="100"/>
-			<select macro="ship_par_l_miner_solid_01_b_macro" weight="100"/>
 			<select macro="ship_par_m_miner_solid_01_b_macro" weight="100"/>
 		</group>
 		<group name="dga_miner_liquid_mixed">
-			<select macro="ship_par_l_miner_liquid_01_a_macro" weight="100"/>
+			<select macro="ship_par_l_miner_liquid_02_a_macro" weight="100"/>
 			<select macro="ship_par_m_miner_liquid_01_a_macro" weight="100"/>
-			<select macro="ship_par_l_miner_liquid_01_b_macro" weight="100"/>
 			<select macro="ship_par_m_miner_liquid_01_b_macro" weight="100"/>
 		</group>
 		<group name="dga_battleship_xl">

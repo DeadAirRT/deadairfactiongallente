@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="//macro[@name='Cluster_604_Sector001_macro']/connections">
+		<connection name="ZoneDGA4_Cluster_604_Sector001_connection" ref="zones">
+			<offset>
+				<position x="37000" y="0" z="-140000"/>
+			</offset>
+			<macro ref="ZoneDGA4_Cluster_604_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+</diff>

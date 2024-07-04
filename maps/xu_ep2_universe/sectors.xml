@@ -1,432 +1,552 @@
 <?xml version="1.0" encoding="utf-8"?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
-<add sel="//macros">
-  <macro name="Cluster_DGA1_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDGA1_Cluster_DGA1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDGA1_Cluster_DGA1_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA2_Cluster_DGA1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA2_Cluster_DGA1_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA3_Cluster_DGA1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA3_Cluster_DGA1_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA4_Cluster_DGA1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDGA4_Cluster_DGA1_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA5_Cluster_DGA1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA5_Cluster_DGA1_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGA6_Cluster_DGA1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA6_Cluster_DGA1_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGAc_Cluster_DGA1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDGAc_Cluster_DGA1_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DGA2_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDGA1_Cluster_DGA2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDGA1_Cluster_DGA2_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA2_Cluster_DGA2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA2_Cluster_DGA2_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA3_Cluster_DGA2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA3_Cluster_DGA2_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA4_Cluster_DGA2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDGA4_Cluster_DGA2_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA5_Cluster_DGA2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA5_Cluster_DGA2_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGA6_Cluster_DGA2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA6_Cluster_DGA2_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGAc_Cluster_DGA2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDGAc_Cluster_DGA2_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DGA3_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDGA1_Cluster_DGA3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDGA1_Cluster_DGA3_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA2_Cluster_DGA3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA2_Cluster_DGA3_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA3_Cluster_DGA3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA3_Cluster_DGA3_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA4_Cluster_DGA3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDGA4_Cluster_DGA3_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA5_Cluster_DGA3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA5_Cluster_DGA3_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGA6_Cluster_DGA3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA6_Cluster_DGA3_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGAc_Cluster_DGA3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDGAc_Cluster_DGA3_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DGA4_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDGA1_Cluster_DGA4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDGA1_Cluster_DGA4_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA2_Cluster_DGA4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA2_Cluster_DGA4_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA3_Cluster_DGA4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA3_Cluster_DGA4_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA4_Cluster_DGA4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDGA4_Cluster_DGA4_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA5_Cluster_DGA4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA5_Cluster_DGA4_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGA6_Cluster_DGA4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA6_Cluster_DGA4_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGAc_Cluster_DGA4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDGAc_Cluster_DGA4_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGAcw_Cluster_DGA4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-125000" y="0" z="0" />
-        </offset>
-        <macro ref="ZoneDGAcw_Cluster_DGA4_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGAce_Cluster_DGA4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="125000" y="0" z="0" />
-        </offset>
-        <macro ref="ZoneDGAce_Cluster_DGA4_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DGA5_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDGA1_Cluster_DGA5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDGA1_Cluster_DGA5_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA2_Cluster_DGA5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA2_Cluster_DGA5_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA3_Cluster_DGA5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA3_Cluster_DGA5_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA4_Cluster_DGA5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDGA4_Cluster_DGA5_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA5_Cluster_DGA5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA5_Cluster_DGA5_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGA6_Cluster_DGA5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA6_Cluster_DGA5_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGAc_Cluster_DGA5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDGAc_Cluster_DGA5_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DGA6_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDGA1_Cluster_DGA6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDGA1_Cluster_DGA6_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA2_Cluster_DGA6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA2_Cluster_DGA6_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA3_Cluster_DGA6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA3_Cluster_DGA6_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA4_Cluster_DGA6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDGA4_Cluster_DGA6_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA5_Cluster_DGA6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA5_Cluster_DGA6_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGA6_Cluster_DGA6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA6_Cluster_DGA6_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGAc_Cluster_DGA6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDGAc_Cluster_DGA6_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DGA7_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDGA1_Cluster_DGA7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDGA1_Cluster_DGA7_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA2_Cluster_DGA7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA2_Cluster_DGA7_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA3_Cluster_DGA7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA3_Cluster_DGA7_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA4_Cluster_DGA7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDGA4_Cluster_DGA7_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA5_Cluster_DGA7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA5_Cluster_DGA7_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGA6_Cluster_DGA7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA6_Cluster_DGA7_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGAc_Cluster_DGA7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDGAc_Cluster_DGA7_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DGA8_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDGA1_Cluster_DGA8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDGA1_Cluster_DGA8_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA2_Cluster_DGA8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA2_Cluster_DGA8_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA3_Cluster_DGA8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA3_Cluster_DGA8_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA4_Cluster_DGA8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDGA4_Cluster_DGA8_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDGA5_Cluster_DGA8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDGA5_Cluster_DGA8_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGA6_Cluster_DGA8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDGA6_Cluster_DGA8_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDGAc_Cluster_DGA8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDGAc_Cluster_DGA8_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-</add>
-<add sel="//macro[@name='Cluster_38_Sector001_macro']/connections">
-      <connection name="ZoneDGA4_Cluster_38_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDGA4_Cluster_38_Sector001_macro" connection="sector" />
-      </connection>
-</add>
-<add sel="//macro[@name='Cluster_05_Sector001_macro']/connections">
-      <connection name="ZoneDGA4_Cluster_05_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-5000" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDGA4_Cluster_05_Sector001_macro" connection="sector" />
-      </connection>
-</add>
-<add sel="//macro[@name='Cluster_11_Sector001_macro']/connections">
-      <connection name="ZoneDGA1_Cluster_11_Sector001_connection" ref="zones">
-        <offset>
-          <position x="1520" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDGA1_Cluster_11_Sector001_macro" connection="sector" />
-      </connection>
-</add>
-<add sel="//macro[@name='Cluster_20_Sector001_macro']/connections">
-      <connection name="ZoneDGA4_Cluster_20_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-55227" y="0" z="-150000" />
-        </offset>
-        <macro ref="ZoneDGA4_Cluster_20_Sector001_macro" connection="sector" />
-      </connection>
-</add>
+<diff>
+	<add sel="/macros">
+		<macro name="Cluster_DGA1_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDGA1_Cluster_DGA1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDGA1_Cluster_DGA1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA2_Cluster_DGA1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA2_Cluster_DGA1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA3_Cluster_DGA1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA3_Cluster_DGA1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA4_Cluster_DGA1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDGA4_Cluster_DGA1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA5_Cluster_DGA1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA5_Cluster_DGA1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA6_Cluster_DGA1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA6_Cluster_DGA1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGAc_Cluster_DGA1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDGAc_Cluster_DGA1_Sector001_macro" connection="sector"/>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DGA2_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDGA1_Cluster_DGA2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDGA1_Cluster_DGA2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA2_Cluster_DGA2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA2_Cluster_DGA2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA3_Cluster_DGA2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA3_Cluster_DGA2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA4_Cluster_DGA2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDGA4_Cluster_DGA2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA5_Cluster_DGA2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA5_Cluster_DGA2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA6_Cluster_DGA2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA6_Cluster_DGA2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGAc_Cluster_DGA2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDGAc_Cluster_DGA2_Sector001_macro" connection="sector"/>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DGA3_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDGA1_Cluster_DGA3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDGA1_Cluster_DGA3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA2_Cluster_DGA3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA2_Cluster_DGA3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA3_Cluster_DGA3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA3_Cluster_DGA3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA4_Cluster_DGA3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDGA4_Cluster_DGA3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA5_Cluster_DGA3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA5_Cluster_DGA3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA6_Cluster_DGA3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA6_Cluster_DGA3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGAc_Cluster_DGA3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDGAc_Cluster_DGA3_Sector001_macro" connection="sector"/>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DGA4_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDGA1_Cluster_DGA4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDGA1_Cluster_DGA4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA2_Cluster_DGA4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA2_Cluster_DGA4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA3_Cluster_DGA4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA3_Cluster_DGA4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA4_Cluster_DGA4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDGA4_Cluster_DGA4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA5_Cluster_DGA4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA5_Cluster_DGA4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA6_Cluster_DGA4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA6_Cluster_DGA4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGAc_Cluster_DGA4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDGAc_Cluster_DGA4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGAcw_Cluster_DGA4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-125000" y="0" z="0"/>
+					</offset>
+					<macro ref="ZoneDGAcw_Cluster_DGA4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGAce_Cluster_DGA4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="125000" y="0" z="0"/>
+					</offset>
+					<macro ref="ZoneDGAce_Cluster_DGA4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="HighwayDGA1toDGA5_Cluster_DGA4_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-10000" y="0" z="45000" />
+					</offset>
+					<macro ref="HighwayDGA1toDGA5_Cluster_DGA4_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDGA1_Cluster_DGA4_Sector001_connection" connection="highway06connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDGA5_Cluster_DGA4_Sector001_connection" connection="highway06connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+				<connection name="HighwayDGA3toDGA1_Cluster_DGA4_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="54658.357" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDGA3toDGA1_Cluster_DGA4_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDGA3_Cluster_DGA4_Sector001_connection" connection="highway10connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDGA1_Cluster_DGA4_Sector001_connection" connection="highway10connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+				<connection name="HighwayDGA5toDGA3_Cluster_DGA4_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-45427.588" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDGA5toDGA3_Cluster_DGA4_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDGA5_Cluster_DGA4_Sector001_connection" connection="highway09connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDGA3_Cluster_DGA4_Sector001_connection" connection="highway09connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DGA5_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDGA1_Cluster_DGA5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDGA1_Cluster_DGA5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA2_Cluster_DGA5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA2_Cluster_DGA5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA3_Cluster_DGA5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA3_Cluster_DGA5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA4_Cluster_DGA5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDGA4_Cluster_DGA5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA5_Cluster_DGA5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA5_Cluster_DGA5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA6_Cluster_DGA5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA6_Cluster_DGA5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGAc_Cluster_DGA5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDGAc_Cluster_DGA5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="HighwayDGA1toDGA3_Cluster_DGA5_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-10000" y="0" z="45000" />
+					</offset>
+					<macro ref="HighwayDGA1toDGA3_Cluster_DGA5_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDGA1_Cluster_DGA5_Sector001_connection" connection="highway08connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDGA3_Cluster_DGA5_Sector001_connection" connection="highway08connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+				<connection name="HighwayDGA3toDGA1_Cluster_DGA5_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="54658.357" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDGA3toDGA1_Cluster_DGA5_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDGA3_Cluster_DGA5_Sector001_connection" connection="highway10connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDGA1_Cluster_DGA5_Sector001_connection" connection="highway10connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DGA6_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDGA1_Cluster_DGA6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDGA1_Cluster_DGA6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA2_Cluster_DGA6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA2_Cluster_DGA6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA3_Cluster_DGA6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA3_Cluster_DGA6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA4_Cluster_DGA6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDGA4_Cluster_DGA6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA5_Cluster_DGA6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA5_Cluster_DGA6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA6_Cluster_DGA6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA6_Cluster_DGA6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGAc_Cluster_DGA6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDGAc_Cluster_DGA6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="HighwayDGA1toDGA5_Cluster_DGA6_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-10000" y="0" z="45000" />
+					</offset>
+					<macro ref="HighwayDGA1toDGA5_Cluster_DGA6_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDGA1_Cluster_DGA6_Sector001_connection" connection="highway06connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDGA5_Cluster_DGA6_Sector001_connection" connection="highway06connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+				<connection name="HighwayDGA5toDGA1_Cluster_DGA6_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-45427.588" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDGA5toDGA1_Cluster_DGA6_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDGA5_Cluster_DGA6_Sector001_connection" connection="highway07connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDGA1_Cluster_DGA6_Sector001_connection" connection="highway07connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DGA7_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDGA1_Cluster_DGA7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDGA1_Cluster_DGA7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA2_Cluster_DGA7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA2_Cluster_DGA7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA3_Cluster_DGA7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA3_Cluster_DGA7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA4_Cluster_DGA7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDGA4_Cluster_DGA7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA5_Cluster_DGA7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA5_Cluster_DGA7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA6_Cluster_DGA7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA6_Cluster_DGA7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGAc_Cluster_DGA7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDGAc_Cluster_DGA7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="HighwayDGA2toDGA6_Cluster_DGA7_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="45427.588" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDGA2toDGA6_Cluster_DGA7_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDGA2_Cluster_DGA7_Sector001_connection" connection="highway03connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDGA6_Cluster_DGA7_Sector001_connection" connection="highway03connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+				<connection name="HighwayDGA6toDGA2_Cluster_DGA7_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-54658.357" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDGA6toDGA2_Cluster_DGA7_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDGA6_Cluster_DGA7_Sector001_connection" connection="highway04connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDGA2_Cluster_DGA7_Sector001_connection" connection="highway04connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DGA8_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDGA1_Cluster_DGA8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDGA1_Cluster_DGA8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA2_Cluster_DGA8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA2_Cluster_DGA8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA3_Cluster_DGA8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA3_Cluster_DGA8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA4_Cluster_DGA8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDGA4_Cluster_DGA8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA5_Cluster_DGA8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDGA5_Cluster_DGA8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGA6_Cluster_DGA8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDGA6_Cluster_DGA8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDGAc_Cluster_DGA8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDGAc_Cluster_DGA8_Sector001_macro" connection="sector"/>
+				</connection>
+			</connections>
+		</macro>
+	</add>
+	<add sel="/macros/macro[@name='Cluster_28_Sector001_macro']/connections">
+		<connection name="ZoneDGA5_Cluster_28_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-34155" y="0" z="-180000"/>
+			</offset>
+			<macro ref="ZoneDGA5_Cluster_28_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	<add sel="/macros/macro[@name='Cluster_40_Sector001_macro']/connections">
+		<connection name="ZoneDGA4_Cluster_40_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-850" y="0" z="-130000"/>
+			</offset>
+			<macro ref="ZoneDGA4_Cluster_40_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	<add sel="/macros/macro[@name='Cluster_49_Sector001_macro']/connections">
+		<connection name="ZoneDGA5_Cluster_49_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-1200" y="0" z="-101000"/>
+			</offset>
+			<macro ref="ZoneDGA5_Cluster_49_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
 </diff>

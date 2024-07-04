@@ -89,9 +89,16 @@
 			</conditions>
 			<actions>
 				<do_if value="md.$DADynamicVarTable.$DAGateZoneMacros?">
-					<set_value name="$LocMacroList" exact="[macro.ZoneDGA1_Cluster_DGA3_Sector001_macro,macro.ZoneDGA4_Cluster_20_Sector001_macro,macro.ZoneDGA1_Cluster_DGA8_Sector001_macro,macro.ZoneDGA4_Cluster_05_Sector001_macro]"/>
+					<set_value name="$LocMacroList" exact="[macro.ZoneDGA2_Cluster_DGA1_Sector001_macro,macro.ZoneDGA4_Cluster_40_Sector001_macro,
+						macro.ZoneDGA6_Cluster_DGA1_Sector001_macro,macro.ZoneDGA5_Cluster_49_Sector001_macro,
+						macro.ZoneDGA2_Cluster_DGA8_Sector001_macro,macro.ZoneDGA5_Cluster_28_Sector001_macro]"/>
 					<do_if value="faction.terran?">
-						<append_list_elements name="$LocMacroList" other="[macro.ZoneDGA4_Cluster_DGA7_Sector001_macro,macro.ZoneDGA4_Cluster_116_Sector001_macro,macro.ZoneDGA6_Cluster_116_Sector001_macro,macro.ZoneDGA5_Cluster_106_Sector001_macro]"/>
+						<append_list_elements name="$LocMacroList" other="[macro.ZoneDGA6_Cluster_DGA2_Sector001_macro,macro.ZoneDGA4_Cluster_116_Sector001_macro,
+							macro.ZoneDGA4_Cluster_DGA8_Sector001_macro,macro.ZoneDGA1_Cluster_114_Sector001_macro,
+							macro.ZoneDGA6_Cluster_116_Sector001_macro,macro.ZoneDGA5_Cluster_106_Sector001_macro]"/>
+					</do_if>
+					<do_if value="faction.boron?">
+						<append_list_elements name="$LocMacroList" other="[macro.ZoneDGA1_Cluster_DGA8_Sector001_macro,macro.ZoneDGA4_Cluster_604_Sector001_macro]"/>
 					</do_if>
 					<do_for_each name="$LocMacro" in="$LocMacroList">
 						<do_if value="not md.$DADynamicVarTable.$DAGateZoneMacros.indexof.{$LocMacro}">

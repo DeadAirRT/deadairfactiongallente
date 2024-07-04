@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="/colormap/colors">
+		<color id="color_galdente" r="0" g="102" b="85" a="255"/>
+	</add>
+	<add sel="/colormap/mappings">
+		<mapping id="faction_galdente" ref="color_galdente"/>
+	</add>
+</diff>

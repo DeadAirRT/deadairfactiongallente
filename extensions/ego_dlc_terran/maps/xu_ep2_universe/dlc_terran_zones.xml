@@ -4,16 +4,12 @@
 		<macro name="ZoneDGA4_Cluster_116_Sector001_macro" class="zone">
 			<component ref="standardzone"/>
 			<connections>
-				<connection name="connection_ClusterGate116ToDGA7" ref="gates">
+				<connection name="connection_ClusterGate116ToDGA2" ref="gates">
 					<offset>
 						<position x="0" y="250" z="-500"/>
 						<quaternion qx="0" qy="0" qz="0" qw="1"/>
 					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false"/>
-						</properties>
-					</macro>
+					<macro ref="props_gates_anc_gate_macro" connection="space"/>
 				</connection>
 			</connections>
 		</macro>
@@ -46,6 +42,18 @@
 							<state active="false"/>
 						</properties>
 					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="ZoneDGA1_Cluster_114_Sector001_macro" class="zone">
+			<component ref="standardzone"/>
+			<connections>
+				<connection name="connection_ClusterGate114ToDGA8" ref="gates">
+					<offset>
+						<position x="0" y="250" z="500"/>
+						<quaternion qx="0" qy="1" qz="0" qw="0"/>
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space"/>
 				</connection>
 			</connections>
 		</macro>

@@ -3,7 +3,7 @@
 	<macro name="ship_dga_xl_erebus_macro" class="ship_xl">
 		<component ref="ship_dga_xl_erebus"/>
 		<properties>
-			<identification name="{4816303,708}" basename="{4816303,708}" description="{4816303,808}" icon="ship_xl_battleship"/>
+			<identification name="{4816303,708}" basename="{4816303,708}" description="{4816303,808}" icon="ship_xl_battleship_01"/>
 			<software>
 				<software ware="software_dockmk2" compatible="1"/>
 				<software ware="software_flightassistmk1" default="1"/>
