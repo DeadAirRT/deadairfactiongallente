@@ -62,10 +62,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -93,10 +93,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -124,10 +124,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -153,10 +153,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -182,10 +182,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -211,10 +211,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -242,10 +242,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -273,10 +273,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -302,10 +302,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -333,10 +333,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -362,10 +362,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -393,10 +393,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -424,10 +424,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
@@ -455,10 +455,10 @@
 					<property type="Float" name="diffuseStr" value="1.0"/>
 					<property type="Float" name="normalStr" value="1.0"/>
 					<property type="Float" name="color_glowStr" value="0.1"/>
-					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="color_dirtStr" value="0.1"/>
 					<property type="Float" name="environmentStr" value="0.2"/>
 					<property type="Float" name="Smoothness" value="0.5"/>
-					<property type="Float" name="Metallness" value="0.5"/>
+					<property type="Float" name="Metallness" value="1.0"/>
 					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
 					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
 					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>

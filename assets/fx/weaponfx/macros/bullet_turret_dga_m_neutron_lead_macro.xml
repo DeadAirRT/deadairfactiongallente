@@ -3,9 +3,9 @@
 	<macro name="bullet_turret_dga_m_neutron_lead_macro" class="bullet">
 		<component ref="bullet_turret_dga_m_neutron"/>
 		<properties>
-			<bullet speed="11250" lifetime="0.939" amount="1" barrelamount="2" icon="weapon_plasma_mk1" timediff="0" angle="0.1" maxhits="1" ricochet="0" scale="0" attach="0"/>
+			<bullet speed="11250" lifetime="0.614" amount="1" barrelamount="2" icon="weapon_plasma_mk1" timediff="0" angle="0.1" maxhits="1" ricochet="0" scale="0" attach="0"/>
 			<reload rate="1.26"/>
-			<damage value="295.07" repair="0"/>
+			<damage value="277.37" shield="35.41"/>
 			<effects>
 				<impact ref="impact_gen_s_plasma_01_mk1" inside="impact_gen_s_plasma_01_mk1_inside"/>
 				<bigobjectimpact ref="impact_gen_s_plasma_01_mk1_bigobject" inside="impact_gen_s_plasma_01_mk1_bigobject_inside"/>

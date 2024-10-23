@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.galdente}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.dronecomponents}.{2}" exact="3"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.energycells}.{2}" exact="7"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.engineparts}.{2}" exact="10"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.fieldcoils}.{2}" exact="1"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.foodrations}.{2}" exact="12"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.graphene}.{2}" exact="7"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.hullparts}.{2}" exact="14"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.medicalsupplies}.{2}" exact="15"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.missilecomponents}.{2}" exact="6"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.plasmaconductors}.{2}" exact="8"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.refinedmetals}.{2}" exact="11"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.scanningarrays}.{2}" exact="6"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.shieldcomponents}.{2}" exact="5"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.siliconwafers}.{2}" exact="14"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.smartchips}.{2}" exact="15"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.spices}.{2}" exact="4"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.superfluidcoolant}.{2}" exact="6"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.water}.{2}" exact="3"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.weaponcomponents}.{2}" exact="5"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.wheat}.{2}" exact="3"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.da_adv_schematics}.{2}" exact="16"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.da_mil_schematics}.{2}" exact="8"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.galdente}.{ware.da_laborunion_contracts}.{2}" exact="15"/>
+		</do_if>
+	</add>
+</diff>

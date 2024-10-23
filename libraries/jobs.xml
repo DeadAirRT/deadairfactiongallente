@@ -1384,7 +1384,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DACriticalTaggaldente,DASmallFleet,factionlogic]" size="ship_xl"/>
+		<category faction="galdente" tags="[DACriticalTaggaldente,DASmallFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="20"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACriticalTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1408,7 +1408,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DACoreTaggaldente,DASmallFleet,factionlogic]" size="ship_l"/>
+		<category faction="galdente" tags="[DACoreTaggaldente,DASmallFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACoreTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1432,7 +1432,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DABorderTaggaldente,DASmallFleet,factionlogic]" size="ship_l"/>
+		<category faction="galdente" tags="[DABorderTaggaldente,DASmallFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DABorderTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1456,7 +1456,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DAContestedTaggaldente,DASmallFleet,factionlogic]" size="ship_xl"/>
+		<category faction="galdente" tags="[DAContestedTaggaldente,DASmallFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="16"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DAContestedTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1541,7 +1541,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DACriticalTaggaldente,DAMediumFleet,factionlogic]" size="ship_xl"/>
+		<category faction="galdente" tags="[DACriticalTaggaldente,DAMediumFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="20"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACriticalTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1565,7 +1565,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DACoreTaggaldente,DAMediumFleet,factionlogic]" size="ship_l"/>
+		<category faction="galdente" tags="[DACoreTaggaldente,DAMediumFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACoreTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1589,7 +1589,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DABorderTaggaldente,DAMediumFleet,factionlogic]" size="ship_l"/>
+		<category faction="galdente" tags="[DABorderTaggaldente,DAMediumFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DABorderTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1613,7 +1613,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DAContestedTaggaldente,DAMediumFleet,factionlogic]" size="ship_xl"/>
+		<category faction="galdente" tags="[DAContestedTaggaldente,DAMediumFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="16"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DAContestedTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1698,7 +1698,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DACriticalTaggaldente,DALargeFleet,factionlogic]" size="ship_xl"/>
+		<category faction="galdente" tags="[DACriticalTaggaldente,DALargeFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="20"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACriticalTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1722,7 +1722,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DACoreTaggaldente,DALargeFleet,factionlogic]" size="ship_l"/>
+		<category faction="galdente" tags="[DACoreTaggaldente,DALargeFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACoreTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1746,7 +1746,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DABorderTaggaldente,DALargeFleet,factionlogic]" size="ship_l"/>
+		<category faction="galdente" tags="[DABorderTaggaldente,DALargeFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DABorderTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1770,7 +1770,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="galdente" tags="[DAContestedTaggaldente,DALargeFleet,factionlogic]" size="ship_xl"/>
+		<category faction="galdente" tags="[DAContestedTaggaldente,DALargeFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="16"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DAContestedTaggaldente"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>

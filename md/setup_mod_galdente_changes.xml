@@ -49,22 +49,23 @@
 				</cue>
 			</cues>
 		</cue>
-		<cue name="PaintTheShips" instantiate="true">
+		<cue name="PaintTheShips_v2" instantiate="true" namespace="this">
 			<conditions>
 				<event_job_ship_activated/>
 				<check_value value="event.param.trueowner == faction.galdente"/>
-				<check_any>
-					<check_value value="event.param.isclass.[class.ship_s,class.ship_m]"/>
-					<check_value value="event.param.isclass.[class.ship_l,class.ship_xl] and event.param.primarypurpose != purpose.fight"/>
-				</check_any>
-				<check_any>
-					<check_value value="event.param.haspaintmod.{ware.paintmod_0001}"/>
-					<check_value value="not event.param.haspaintmod"/>
-				</check_any>
+				<check_value value="event.param.isclass.[class.ship_s,class.ship_m,class.ship_l,class.ship_xl]"/>
 			</conditions>
 			<actions>
-				<set_value name="$GaldentePaint" exact="ware.paintmod_galdente"/>
-				<add_paint_mod object="event.param" ware="$GaldentePaint"/>
+				<do_if value="[macro.ship_dga_l_obelisk_macro,macro.ship_dga_l_brutix_macro,macro.ship_dga_l_proteus_macro,macro.ship_dga_l_hyperion_macro,macro.ship_dga_l_thorax_macro,macro.ship_dga_l_megathron_macro,macro.ship_dga_l_talos_macro,macro.ship_dga_xl_thanatos_macro,macro.ship_dga_xl_erebus_macro].indexof.{event.param.macro}">
+					<set_value name="$PaintMod" exact="ware.paintmod_0001"/>
+				</do_if>
+				<do_else>
+					<set_value name="$PaintMod" exact="ware.paintmod_galdente"/>
+				</do_else>
+				<do_if value="$PaintMod?">
+					<add_paint_mod object="event.param" ware="$PaintMod"/>
+				</do_if>
+				<remove_value name="$PaintMod"/>
 			</actions>
 		</cue>
 		<cue name="DeadAirScriptsIntegration" instantiate="true">
@@ -74,6 +75,7 @@
 					<event_cue_signalled cue="md.Setup.Start"/>
 				</check_any>
 			</conditions>
+			<delay exact="5s"/>
 			<actions>
 				<do_if value="md.$DADynamicVarTable.$DAGateEnable?">
 					<signal_cue_instantly cue="IntegrateDeadAirGate"/>
@@ -89,13 +91,9 @@
 			</conditions>
 			<actions>
 				<do_if value="md.$DADynamicVarTable.$DAGateZoneMacros?">
-					<set_value name="$LocMacroList" exact="[macro.ZoneDGA2_Cluster_DGA1_Sector001_macro,macro.ZoneDGA4_Cluster_40_Sector001_macro,
-						macro.ZoneDGA6_Cluster_DGA1_Sector001_macro,macro.ZoneDGA5_Cluster_49_Sector001_macro,
-						macro.ZoneDGA2_Cluster_DGA8_Sector001_macro,macro.ZoneDGA5_Cluster_28_Sector001_macro]"/>
+					<set_value name="$LocMacroList" exact="[macro.ZoneDGA2_Cluster_DGA1_Sector001_macro,macro.ZoneDGA4_Cluster_40_Sector001_macro,macro.ZoneDGA6_Cluster_DGA1_Sector001_macro,macro.ZoneDGA5_Cluster_49_Sector001_macro,macro.ZoneDGA2_Cluster_DGA8_Sector001_macro,macro.ZoneDGA5_Cluster_28_Sector001_macro]"/>
 					<do_if value="faction.terran?">
-						<append_list_elements name="$LocMacroList" other="[macro.ZoneDGA6_Cluster_DGA2_Sector001_macro,macro.ZoneDGA4_Cluster_116_Sector001_macro,
-							macro.ZoneDGA4_Cluster_DGA8_Sector001_macro,macro.ZoneDGA1_Cluster_114_Sector001_macro,
-							macro.ZoneDGA6_Cluster_116_Sector001_macro,macro.ZoneDGA5_Cluster_106_Sector001_macro]"/>
+						<append_list_elements name="$LocMacroList" other="[macro.ZoneDGA6_Cluster_DGA2_Sector001_macro,macro.ZoneDGA4_Cluster_116_Sector001_macro,macro.ZoneDGA4_Cluster_DGA8_Sector001_macro,macro.ZoneDGA1_Cluster_114_Sector001_macro,macro.ZoneDGA6_Cluster_116_Sector001_macro,macro.ZoneDGA5_Cluster_106_Sector001_macro]"/>
 					</do_if>
 					<do_if value="faction.boron?">
 						<append_list_elements name="$LocMacroList" other="[macro.ZoneDGA1_Cluster_DGA8_Sector001_macro,macro.ZoneDGA4_Cluster_604_Sector001_macro]"/>
